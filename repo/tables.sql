@@ -60,12 +60,12 @@ CREATE TABLE users (
     -- username must be 5 characters or greater
     username            text,
     password            text,
-    first_name          text          ,
-    last_name           text          ,
+    first_name          text,
+    last_name           text,
     email               text,
-    confirmation_token  uuid                  UNIQUE DEFAULT uuid_generate_v4(),
-    signin_token        uuid                  UNIQUE DEFAULT uuid_generate_v4(),
-    extra_info          jsonb									DEFAULT '{}'
+    confirmation_token  uuid                            UNIQUE DEFAULT uuid_generate_v4(),
+    signin_token        uuid                            UNIQUE DEFAULT uuid_generate_v4(),
+    extra_info          jsonb				DEFAULT '{}'
 );
 CREATE INDEX users_login_email_idx on users (is_active, email, password);
 CREATE INDEX users_login_username_idx on users (is_active, username, password);
@@ -76,7 +76,7 @@ CREATE TABLE tags (
     uuid               uuid                            UNIQUE NOT NULL DEFAULT uuid_generate_v4(),
     name               text                            UNIQUE NOT NULL,
     inserted_at        timestamp without time zone     DEFAULT CURRENT_TIMESTAMP,
-    creator_id         integer                         REFERENCES users(id) ON DELETE CASCADE,
+    creator_id         integer                         REFERENCES users(id) ON DELETE CASCADE
 );
 
 CREATE INDEX tags_idx on tags (name);

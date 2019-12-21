@@ -1,0 +1,6 @@
+cython
+falcon
+psycopg2-binary
+redis
+celery
+gunicorn

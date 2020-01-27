@@ -1,6 +1,6 @@
 cython
 falcon
-psycopg2-binary
+psycopg2
 redis
 celery
 gunicorn

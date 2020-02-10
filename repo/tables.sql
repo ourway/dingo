@@ -83,9 +83,16 @@ CREATE TABLE files (
 
 CREATE INDEX files_idx ON files (filetype);
 
+CREATE TRIGGER 
+    files_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON files
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
+
 -----------------------------------------------------------------------------------------------------------------
 -- each user has a default group: user_
-CREATE TABLE GROUPS (
+CREATE TABLE groups (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     is_active BOOLEAN DEFAULT TRUE,
@@ -96,6 +103,13 @@ CREATE TABLE GROUPS (
 );
 
 CREATE INDEX group_idx ON GROUPS (role, is_active);
+
+CREATE TRIGGER 
+    groups_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON groups
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 
 -- OAuth2 type
 -- https://tools.ietf.org/html/rfc6749
@@ -234,6 +248,12 @@ CREATE INDEX session_idx ON sessions (user_id, uuid, is_active, expires_at);
 
 CREATE INDEX session_correlator_idx ON sessions (correlator);
 
+CREATE TRIGGER 
+    sessions_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON sessions 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 -- Memberships
 CREATE TABLE memberships (
@@ -251,6 +271,12 @@ CREATE INDEX member_idx ON memberships (user_id, group_id, is_active, expires_at
 
 CREATE UNIQUE INDEX unique_membership_idx ON memberships (user_id, group_id);
 
+CREATE TRIGGER 
+    memberships_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON memberships 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 -- Permissions
 CREATE TABLE permissions (
@@ -268,6 +294,12 @@ CREATE INDEX permission_idx ON permissions (group_id, permission, is_active, exp
 
 CREATE UNIQUE INDEX uniqe_permissions_idx ON permissions (permission, group_id);
 
+CREATE TRIGGER 
+    permissions_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON permissions 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE partners (
     id serial PRIMARY KEY,
@@ -289,6 +321,12 @@ CREATE INDEX partners_idx ON partners (is_active, name);
 CREATE INDEX partners_desc_idx ON partners
 USING GIN (description);
 
+CREATE TRIGGER 
+    partners_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON partners 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 -- staff may create coupons in varoius ocasions
 CREATE TABLE coupons (
@@ -307,6 +345,12 @@ CREATE TABLE coupons (
 
 CREATE INDEX coupons_idx ON coupons (is_active, code, expires_at);
 
+CREATE TRIGGER 
+    coupons_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON coupons 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 -- each user has a walet
 CREATE TABLE walets (
@@ -319,6 +363,15 @@ CREATE TABLE walets (
     extra_info jsonb DEFAULT '{}'
 );
 
+
+CREATE TRIGGER 
+    walets_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON walets 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
+
+
 -----------------------------------------------------------------------------------------------------------------
 -- each user has a basket
 CREATE TABLE baskets (
@@ -330,6 +383,12 @@ CREATE TABLE baskets (
     extra_info jsonb DEFAULT '{}'
 );
 
+CREATE TRIGGER 
+    backets_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON baskets 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE sections (
     id serial PRIMARY KEY,
@@ -354,6 +413,16 @@ CREATE INDEX sections_idx ON sections (is_active, is_public, title, expires_at, 
 
 CREATE INDEX sections_desc_idx ON sections
 USING GIN (description);
+
+
+
+CREATE TRIGGER 
+    sections_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON sections 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
+
 
 -----------------------------------------------------------------------------------------------------------------
 -- tutorials collection packs
@@ -387,6 +456,12 @@ CREATE INDEX collections_idx ON collections (is_active, is_public, title, starts
 CREATE INDEX collections_desc_idx ON collections
 USING GIN (description);
 
+CREATE TRIGGER 
+    collections_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON collections 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TYPE skill_level AS ENUM (
     'beginner',
@@ -429,6 +504,12 @@ CREATE INDEX tutorials_idx ON tutorials (is_active, is_public, title, starts_at,
 CREATE INDEX tutorials_desc_idx ON tutorials
 USING GIN (description);
 
+CREATE TRIGGER 
+    tutorials_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON tutorials 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE collections_tutorials (
     id serial PRIMARY KEY,
@@ -480,6 +561,12 @@ CREATE INDEX boxes_idx ON boxes (is_active, is_public, section_id, starts_at, ex
 CREATE INDEX boxes_desc_idx ON boxes
 USING GIN (description);
 
+CREATE TRIGGER 
+    boxes_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON boxes 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE boxes_tutorials (
     id serial PRIMARY KEY,
@@ -507,6 +594,16 @@ CREATE TABLE videos (
     user_id integer REFERENCES users (id) ON DELETE CASCADE,
     file_id integer REFERENCES files (id) ON DELETE CASCADE
 );
+
+
+
+-- TODO
+CREATE TRIGGER 
+    videos_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON videos 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE medias (

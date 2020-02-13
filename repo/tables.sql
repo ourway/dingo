@@ -641,6 +641,12 @@ CREATE TABLE medias (
     extra_info jsonb DEFAULT '{}'
 );
 
+CREATE TRIGGER 
+    medias_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON medias 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE medias_attachments (
     id serial PRIMARY KEY,
@@ -663,6 +669,12 @@ CREATE TABLE playlists (
 
 CREATE INDEX playlists_idx ON playlists (user_id, title);
 
+CREATE TRIGGER 
+    playlists_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON playlists 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 -- each media has playback options for every user
 CREATE TABLE playbacks (
@@ -684,7 +696,14 @@ CREATE INDEX playbacks_idx ON playbacks (user_id, media_id, playlist_id);
 CREATE INDEX playback_note_idx ON playbacks
 USING GIN (note);
 
+CREATE TRIGGER 
+    playbacks_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON playbacks 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
+
 -- each tutorial has progress options for every user
 CREATE TABLE tutorial_progress (
     id serial PRIMARY KEY,
@@ -719,6 +738,12 @@ CREATE TABLE purchases (
 
 CREATE INDEX purchases_idx ON purchases (basket_id, collection_id, tutorial_id);
 
+CREATE TRIGGER 
+    purchases_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON purchases 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE ownerships (
     id serial PRIMARY KEY,
@@ -736,6 +761,16 @@ CREATE INDEX tutorial_ownership_idx ON ownerships (tutorial_id, user_id, starts_
 
 CREATE INDEX collection_ownership_idx ON ownerships (collection_id, user_id, starts_at, expires_at);
 
+
+
+CREATE TRIGGER 
+    ownerships_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON ownerships 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
+------------------------------------------------------------------------------
+
 CREATE TYPE ticket_status AS ENUM (
     'pending',
     'assigned',
@@ -747,6 +782,7 @@ CREATE TYPE ticket_status AS ENUM (
 );
 
 -----------------------------------------------------------------------------------------------------------------
+
 CREATE TABLE tickets (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
@@ -760,6 +796,15 @@ CREATE TABLE tickets (
 CREATE INDEX tickets_staffer_idx ON tickets (staffer_id, status);
 
 CREATE INDEX tickets_user_idx ON tickets (user_id, status);
+
+
+
+CREATE TRIGGER 
+    tickets_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON tickets 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE comments (
@@ -778,6 +823,12 @@ CREATE TABLE comments (
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TRIGGER 
+    comments_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON comments 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE comments_attachments (
     id serial PRIMARY KEY,
@@ -799,6 +850,12 @@ CREATE TABLE subscriptions (
 
 CREATE INDEX subscriptions_idx ON subscriptions (user_id, expires_at, is_active);
 
+CREATE TRIGGER 
+    subscriptions_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON subscriptions 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE invoices (
     id serial PRIMARY KEY,
@@ -813,6 +870,12 @@ CREATE TABLE invoices (
 
 CREATE INDEX invoices_idx ON invoices (user_id, expires_at, is_completed);
 
+CREATE TRIGGER 
+    invoices_timestamps_update_trigger
+        BEFORE UPDATE OR INSERT
+            ON invoices 
+            FOR EACH ROW
+            EXECUTE PROCEDURE timestamp_update_func();
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE invoices_times (
     id serial PRIMARY KEY,

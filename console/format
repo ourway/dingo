@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+node node_modules/prettier/bin-prettier.js --write --single-quote false --print-width 110 --html-whitespace-sensitivity=strict ./**/*.svelte ./**/*.js

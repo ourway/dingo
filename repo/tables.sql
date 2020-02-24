@@ -147,12 +147,13 @@ CREATE TABLE users (
     email_confirmation_expires_on TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     -- cellphone
 
-    cellphone BIGINT,
+    cellphone BIGINT UNIQUE,
     cellphone_activated BOOLEAN NOT NULL DEFAULT FALSE,
     cellphone_activation_code INTEGER NOT NULL DEFAULT floor(random() * (999999-100000) + 100000)::int,
     cellphone_activation_expires_on TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT (NOW() + INTERVAL '2 minutes'),
 
     -- password
+    password TEXT,
     passwd TEXT,
     oldhash TEXT,
     salt TEXT NOT NULL DEFAULT gen_salt('bf'),
@@ -185,6 +186,7 @@ CREATE TABLE users (
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
 
+
     CONSTRAINT user_cellphone_action_confirmation_only_if_there_is_a_cellphone CHECK (((cellphone_activated IS FALSE) OR (cellphone IS NOT NULL))),
     CONSTRAINT user_email_is_valid CHECK (((email)::text ~* '^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+[.][A-Za-z]+$'::text)),
     CONSTRAINT user_name_must_be_null_or_at_least_5_chars CHECK (((username IS NULL) OR (length((username)::text) >= 5))),
@@ -199,6 +201,8 @@ CREATE UNIQUE INDEX users_is_super_user_idx ON users (is_super_user) WHERE (is_s
 
 
 -- TODO: lots to do here. (I need to check old elixir project)
+
+
 
 
 CREATE TRIGGER 
@@ -217,7 +221,7 @@ CREATE TABLE tags (
     name TEXT UNIQUE NOT NULL,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE
 );
 
 CREATE INDEX tags_idx ON tags (name);
@@ -236,7 +240,7 @@ CREATE TABLE sessions (
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     correlator uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     is_active BOOLEAN DEFAULT FALSE,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     expires_at TIMESTAMP WITHOUT TIME ZONE DEFAULT LOCALTIMESTAMP + INTERVAL '30 days',
@@ -263,8 +267,8 @@ CREATE TABLE memberships (
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     expires_at TIMESTAMP WITHOUT TIME ZONE,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
-    group_id integer REFERENCES GROUPS (id) ON DELETE CASCADE
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    group_id INTEGER REFERENCES GROUPS (id) ON DELETE CASCADE
 );
 
 CREATE INDEX member_idx ON memberships (user_id, group_id, is_active, expires_at);
@@ -287,7 +291,7 @@ CREATE TABLE permissions (
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     expires_at TIMESTAMP WITHOUT TIME ZONE,
     permission TEXT NOT NULL,
-    group_id integer REFERENCES GROUPS (id) ON DELETE CASCADE
+    group_id INTEGER REFERENCES GROUPS (id) ON DELETE CASCADE
 );
 
 CREATE INDEX permission_idx ON permissions (group_id, permission, is_active, expires_at);
@@ -306,9 +310,9 @@ CREATE TABLE partners (
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     name TEXT UNIQUE NOT NULL,
     slogan TEXT,
-    avatar_id integer REFERENCES files (id) ON DELETE CASCADE,
-    partner_id integer REFERENCES partners (id) ON DELETE CASCADE,
-    background_id integer REFERENCES files (id) ON DELETE CASCADE,
+    avatar_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    partner_id INTEGER REFERENCES partners (id) ON DELETE CASCADE,
+    background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     is_active BOOLEAN DEFAULT TRUE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
@@ -319,7 +323,7 @@ CREATE TABLE partners (
 CREATE INDEX partners_idx ON partners (is_active, name);
 
 CREATE INDEX partners_desc_idx ON partners
-USING GIN (description);
+  (description);
 
 CREATE TRIGGER 
     partners_timestamps_update_trigger
@@ -337,7 +341,7 @@ CREATE TABLE coupons (
     max_amount money NOT NULL DEFAULT 5000,
     is_active BOOLEAN DEFAULT TRUE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE,
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     expires_at TIMESTAMP WITHOUT TIME ZONE DEFAULT LOCALTIMESTAMP + INTERVAL '90 days',
     extra_info jsonb DEFAULT '{}'
@@ -356,9 +360,9 @@ CREATE TRIGGER
 CREATE TABLE walets (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
-    balance integer DEFAULT 0,
+    balance INTEGER DEFAULT 0,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     extra_info jsonb DEFAULT '{}'
 );
@@ -378,7 +382,7 @@ CREATE TABLE baskets (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     extra_info jsonb DEFAULT '{}'
 );
@@ -394,10 +398,10 @@ CREATE TABLE sections (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     title TEXT UNIQUE NOT NULL,
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE,
-    parent_id integer REFERENCES sections (id) ON DELETE CASCADE,
-    background_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_background_id integer REFERENCES files (id) ON DELETE CASCADE,
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    parent_id INTEGER REFERENCES sections (id) ON DELETE CASCADE,
+    background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     is_active BOOLEAN DEFAULT FALSE,
     is_public BOOLEAN DEFAULT FALSE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
@@ -405,14 +409,14 @@ CREATE TABLE sections (
     expires_at TIMESTAMP WITHOUT TIME ZONE,
     starts_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     description tsvector,
-    tag_id integer REFERENCES tags (id) ON DELETE CASCADE,
+    tag_id INTEGER REFERENCES tags (id) ON DELETE CASCADE,
     extra_info jsonb DEFAULT '{}'
 );
 
 CREATE INDEX sections_idx ON sections (is_active, is_public, title, expires_at, starts_at);
 
 CREATE INDEX sections_desc_idx ON sections
-USING GIN (description);
+  (description);
 
 
 
@@ -430,14 +434,14 @@ CREATE TABLE collections (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     title TEXT UNIQUE NOT NULL,
-    preview_id integer REFERENCES files (id) ON DELETE CASCADE,
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE,
-    poster_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_poster_id integer REFERENCES files (id) ON DELETE CASCADE,
-    background_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_background_id integer REFERENCES files (id) ON DELETE CASCADE,
+    preview_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    poster_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_poster_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     discount float NOT NULL DEFAULT 0.0,
-    thumbnail_id integer REFERENCES files (id) ON DELETE CASCADE,
+    thumbnail_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     is_active BOOLEAN DEFAULT FALSE,
     is_public BOOLEAN DEFAULT FALSE,
     is_editors_pick BOOLEAN DEFAULT FALSE,
@@ -445,7 +449,7 @@ CREATE TABLE collections (
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     starts_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    tag_id integer REFERENCES tags (id) ON DELETE CASCADE,
+    tag_id INTEGER REFERENCES tags (id) ON DELETE CASCADE,
     expires_at TIMESTAMP WITHOUT TIME ZONE,
     description tsvector,
     extra_info jsonb DEFAULT '{}'
@@ -454,7 +458,7 @@ CREATE TABLE collections (
 CREATE INDEX collections_idx ON collections (is_active, is_public, title, starts_at, expires_at);
 
 CREATE INDEX collections_desc_idx ON collections
-USING GIN (description);
+  (description);
 
 CREATE TRIGGER 
     collections_timestamps_update_trigger
@@ -475,15 +479,15 @@ CREATE TABLE tutorials (
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     title TEXT UNIQUE NOT NULL,
     country TEXT NOT NULL DEFAULT 'iran',
-    preview_id integer REFERENCES files (id) ON DELETE CASCADE,
-    partner_id integer REFERENCES partners (id) ON DELETE CASCADE,
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE,
-    poster_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_poster_id integer REFERENCES files (id) ON DELETE CASCADE,
-    background_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_background_id integer REFERENCES files (id) ON DELETE CASCADE,
+    preview_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    partner_id INTEGER REFERENCES partners (id) ON DELETE CASCADE,
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    poster_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_poster_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     discount float NOT NULL DEFAULT 0.0,
-    thumbnail_id integer REFERENCES files (id) ON DELETE CASCADE,
+    thumbnail_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     is_active BOOLEAN DEFAULT FALSE,
     level skill_level DEFAULT 'intermediate',
     is_public BOOLEAN DEFAULT FALSE,
@@ -492,7 +496,7 @@ CREATE TABLE tutorials (
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     starts_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    tag_id integer REFERENCES tags (id) ON DELETE CASCADE,
+    tag_id INTEGER REFERENCES tags (id) ON DELETE CASCADE,
     expires_at TIMESTAMP WITHOUT TIME ZONE,
     description tsvector,
     extra_info jsonb DEFAULT '{}'
@@ -502,7 +506,7 @@ CREATE TABLE tutorials (
 CREATE INDEX tutorials_idx ON tutorials (is_active, is_public, title, starts_at, expires_at);
 
 CREATE INDEX tutorials_desc_idx ON tutorials
-USING GIN (description);
+  (description);
 
 CREATE TRIGGER 
     tutorials_timestamps_update_trigger
@@ -513,8 +517,8 @@ CREATE TRIGGER
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE collections_tutorials (
     id serial PRIMARY KEY,
-    collection_id integer REFERENCES collections (id) ON DELETE CASCADE,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE
+    collection_id INTEGER REFERENCES collections (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE
 );
 
 -----------------------------------------------------------------------------------------------------------------
@@ -539,10 +543,10 @@ CREATE TABLE boxes (
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     title TEXT UNIQUE NOT NULL,
     items_mode item_orientation NOT NULL DEFAULT 'landscape',
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE,
-    section_id integer REFERENCES sections (id) ON DELETE CASCADE,
-    background_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_background_id integer REFERENCES files (id) ON DELETE CASCADE,
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    section_id INTEGER REFERENCES sections (id) ON DELETE CASCADE,
+    background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     items_width item_width NOT NULL DEFAULT 'medium',
     is_active BOOLEAN DEFAULT FALSE,
     is_public BOOLEAN DEFAULT FALSE,
@@ -550,16 +554,16 @@ CREATE TABLE boxes (
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     starts_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     expires_at TIMESTAMP WITHOUT TIME ZONE,
-    orderid integer DEFAULT 1,
+    orderid INTEGER DEFAULT 1,
     description tsvector,
-    tag_id integer REFERENCES tags (id) ON DELETE CASCADE,
+    tag_id INTEGER REFERENCES tags (id) ON DELETE CASCADE,
     extra_info jsonb DEFAULT '{}'
 );
 
 CREATE INDEX boxes_idx ON boxes (is_active, is_public, section_id, starts_at, expires_at);
 
 CREATE INDEX boxes_desc_idx ON boxes
-USING GIN (description);
+  (description);
 
 CREATE TRIGGER 
     boxes_timestamps_update_trigger
@@ -570,15 +574,15 @@ CREATE TRIGGER
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE boxes_tutorials (
     id serial PRIMARY KEY,
-    box_id integer REFERENCES boxes (id) ON DELETE CASCADE,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE
+    box_id INTEGER REFERENCES boxes (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE
 );
 
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE boxes_sections (
     id serial PRIMARY KEY,
-    box_id integer REFERENCES boxes (id) ON DELETE CASCADE,
-    section_id integer REFERENCES sections (id) ON DELETE CASCADE
+    box_id INTEGER REFERENCES boxes (id) ON DELETE CASCADE,
+    section_id INTEGER REFERENCES sections (id) ON DELETE CASCADE
 );
 
 -----------------------------------------------------------------------------------------------------------------
@@ -591,8 +595,8 @@ CREATE TABLE videos (
     status TEXT NOT NULL DEFAULT 'pending',
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
-    file_id integer REFERENCES files (id) ON DELETE CASCADE
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    file_id INTEGER REFERENCES files (id) ON DELETE CASCADE
 );
 
 
@@ -616,24 +620,24 @@ CREATE TABLE medias (
     mp4 TEXT UNIQUE,
     mpd TEXT UNIQUE,
     m3u8 TEXT UNIQUE,
-    creator_id integer REFERENCES users (id) ON DELETE CASCADE,
-    file_id integer REFERENCES files (id) ON DELETE CASCADE,
-    preview_id integer REFERENCES files (id) ON DELETE CASCADE,
-    poster_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_poster_id integer REFERENCES files (id) ON DELETE CASCADE,
-    background_id integer REFERENCES files (id) ON DELETE CASCADE,
-    mobile_background_id integer REFERENCES files (id) ON DELETE CASCADE,
+    creator_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    file_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    preview_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    poster_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_poster_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    mobile_background_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     price money NOT NULL DEFAULT 0,
     discount float NOT NULL DEFAULT 0.0,
-    thumbnail_id integer REFERENCES files (id) ON DELETE CASCADE,
-    subtitle_id integer REFERENCES files (id) ON DELETE CASCADE,
+    thumbnail_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    subtitle_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
     is_active BOOLEAN DEFAULT FALSE,
     is_editors_pick BOOLEAN DEFAULT FALSE,
     is_gift BOOLEAN DEFAULT FALSE,
     is_ready BOOLEAN DEFAULT FALSE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    tag_id integer REFERENCES tags (id) ON DELETE CASCADE,
+    tag_id INTEGER REFERENCES tags (id) ON DELETE CASCADE,
     expires_at TIMESTAMP WITHOUT TIME ZONE,
     description tsvector,
     review tsvector,
@@ -650,8 +654,8 @@ CREATE TRIGGER
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE medias_attachments (
     id serial PRIMARY KEY,
-    attachment_id integer REFERENCES files (id) ON DELETE CASCADE,
-    media_id integer REFERENCES files (id) ON DELETE CASCADE
+    attachment_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    media_id INTEGER REFERENCES files (id) ON DELETE CASCADE
 );
 
 -----------------------------------------------------------------------------------------------------------------
@@ -662,7 +666,7 @@ CREATE TABLE playlists (
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     title TEXT UNIQUE NOT NULL,
     user_generated BOOLEAN DEFAULT FALSE,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     extra_info jsonb DEFAULT '{}'
 );
@@ -681,9 +685,9 @@ CREATE TABLE playbacks (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    media_id integer REFERENCES medias (id) ON DELETE CASCADE,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
-    playlist_id integer REFERENCES playlists (id) ON DELETE CASCADE,
+    media_id INTEGER REFERENCES medias (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    playlist_id INTEGER REFERENCES playlists (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     last_position float DEFAULT 0,
     rate smallint,
@@ -694,7 +698,7 @@ CREATE TABLE playbacks (
 CREATE INDEX playbacks_idx ON playbacks (user_id, media_id, playlist_id);
 
 CREATE INDEX playback_note_idx ON playbacks
-USING GIN (note);
+  (note);
 
 CREATE TRIGGER 
     playbacks_timestamps_update_trigger
@@ -709,10 +713,10 @@ CREATE TABLE tutorial_progress (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    last_completed_media_id integer REFERENCES medias (id) ON DELETE CASCADE,
+    last_completed_media_id INTEGER REFERENCES medias (id) ON DELETE CASCADE,
     note tsvector,
     marker_data jsonb DEFAULT '{}'
 );
@@ -720,7 +724,7 @@ CREATE TABLE tutorial_progress (
 CREATE INDEX progress_idx ON tutorial_progress (user_id, tutorial_id);
 
 CREATE INDEX progress_note_idx ON tutorial_progress
-USING GIN (note);
+  (note);
 
 -----------------------------------------------------------------------------------------------------------------
 -- each user has multi purchases
@@ -728,10 +732,10 @@ CREATE TABLE purchases (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    basket_id integer REFERENCES baskets (id) ON DELETE CASCADE,
-    coupon_id integer REFERENCES coupons (id) ON DELETE CASCADE,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE,
-    collection_id integer REFERENCES collections (id) ON DELETE CASCADE,
+    basket_id INTEGER REFERENCES baskets (id) ON DELETE CASCADE,
+    coupon_id INTEGER REFERENCES coupons (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE,
+    collection_id INTEGER REFERENCES collections (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     extra_info jsonb DEFAULT '{}'
 );
@@ -748,12 +752,12 @@ CREATE TRIGGER
 CREATE TABLE ownerships (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
-    collection_id integer REFERENCES collections (id) ON DELETE CASCADE,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE,
+    collection_id INTEGER REFERENCES collections (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     starts_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     expires_at TIMESTAMP WITHOUT TIME ZONE DEFAULT LOCALTIMESTAMP + INTERVAL '3650 days'
 );
 
@@ -786,11 +790,11 @@ CREATE TYPE ticket_status AS ENUM (
 CREATE TABLE tickets (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     status ticket_status NOT NULL DEFAULT 'pending',
-    staffer_id integer REFERENCES users (id) ON DELETE CASCADE
+    staffer_id INTEGER REFERENCES users (id) ON DELETE CASCADE
 );
 
 CREATE INDEX tickets_staffer_idx ON tickets (staffer_id, status);
@@ -813,12 +817,12 @@ CREATE TABLE comments (
     body TEXT NOT NULL,
     is_approved BOOLEAN NOT NULL DEFAULT FALSE,
     is_public BOOLEAN NOT NULL DEFAULT FALSE,
-    reviewer_id integer REFERENCES users (id) ON DELETE CASCADE,
-    ticket_id integer REFERENCES tickets (id) ON DELETE CASCADE,
-    media_id integer REFERENCES medias (id) ON DELETE CASCADE,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE,
-    collection_id integer REFERENCES collections (id) ON DELETE CASCADE,
-    writer_id integer REFERENCES users (id) ON DELETE CASCADE,
+    reviewer_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+    ticket_id INTEGER REFERENCES tickets (id) ON DELETE CASCADE,
+    media_id INTEGER REFERENCES medias (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE,
+    collection_id INTEGER REFERENCES collections (id) ON DELETE CASCADE,
+    writer_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
@@ -832,15 +836,15 @@ CREATE TRIGGER
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE comments_attachments (
     id serial PRIMARY KEY,
-    attachment_id integer REFERENCES files (id) ON DELETE CASCADE,
-    comment_id integer REFERENCES comments (id) ON DELETE CASCADE
+    attachment_id INTEGER REFERENCES files (id) ON DELETE CASCADE,
+    comment_id INTEGER REFERENCES comments (id) ON DELETE CASCADE
 );
 
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE subscriptions (
     id serial PRIMARY KEY,
     uuid uuid UNIQUE NOT NULL DEFAULT uuid_generate_v4 (),
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     inserted_at TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     is_active BOOLEAN DEFAULT FALSE,
@@ -864,7 +868,7 @@ CREATE TABLE invoices (
     note TEXT,
     inserted_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    user_id integer REFERENCES users (id) ON DELETE CASCADE,
+    user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
     expires_at TIMESTAMP WITHOUT TIME ZONE DEFAULT LOCALTIMESTAMP + INTERVAL '30 days'
 );
 
@@ -879,10 +883,10 @@ CREATE TRIGGER
 -----------------------------------------------------------------------------------------------------------------
 CREATE TABLE invoices_times (
     id serial PRIMARY KEY,
-    collection_id integer REFERENCES collections (id) ON DELETE CASCADE,
-    tutorial_id integer REFERENCES tutorials (id) ON DELETE CASCADE,
-    subscription_id integer REFERENCES subscriptions (id) ON DELETE CASCADE,
-    invoice_id integer REFERENCES invoices (id) ON DELETE CASCADE
+    collection_id INTEGER REFERENCES collections (id) ON DELETE CASCADE,
+    tutorial_id INTEGER REFERENCES tutorials (id) ON DELETE CASCADE,
+    subscription_id INTEGER REFERENCES subscriptions (id) ON DELETE CASCADE,
+    invoice_id INTEGER REFERENCES invoices (id) ON DELETE CASCADE
 );
 
 -----------------------------------------------------------------------------------------------------------------
@@ -948,6 +952,7 @@ BEGIN
     IF NEW.passwd IS NOT NULL AND OLD.passwd <> NEW.passwd IS NOT FALSE THEN
         -- do something
     END IF;
+    
     ---------------------------------------------------------------------
     RETURN NEW;
     -- *****************************************************************
@@ -984,7 +989,7 @@ BEGIN
         IF newhash <> NEW.oldhash IS NOT FALSE THEN
             NEW.passwd = newhash;
             NEW.oldhash = newhash;
-            -- password change will result to account deactivation and user is required to
+            -- password change will not be result to immidiate pass change. user has to confirm it
             NEW.passwd_change_confirmed = FALSE;
             -- regenerate token
             NEW.passwd_change_confirmation_token = uuid_generate_v4 ();
@@ -1002,9 +1007,6 @@ BEGIN
     IF OLD.passwd_change_confirmed IS FALSE AND NEW.passwd_change_confirmed IS TRUE THEN
         -- Check if confirmation deadline is not reached:
         -- If deadline is past, raise
-        IF OLD.passwd_change_confirmation_expires_on < NOW() THEN
-            RAISE EXCEPTION 'Password confirmation token has been expired.';
-        END IF;
         -- check if password is not null
         -- if password is null, raise
         IF NEW.passwd IS NULL THEN
@@ -1012,6 +1014,10 @@ BEGIN
         ELSE
             -- ok, not confirmation can proceed
             -- expire confirmation deadline:
+            IF old.passwd_change_confirmation_expires_on > NOW() THEN
+                NEW.password = OLD.passwd;
+            END IF;
+
             NEW.passwd_change_confirmation_expires_on = NOW() - INTERVAL '1 year';
             -- expire confirmation token:
             NEW.passwd_change_confirmation_token = uuid_generate_v4 ();
@@ -1074,7 +1080,11 @@ BEGIN
     SELECT count(id) from users limit 2 into old_users_count;
     IF old_users_count < 2 THEN
         -- RAISE NOTICE 'Super user created for %.', NEW.email;
+        -- Basically, this is the first logged in user - which makes it admin
         NEW.is_super_user = 't';
+        NEW.is_active = 't';
+        NEW.email_confirmed = 't';
+        NEW.accepted_terms = 't';
     END IF;
 
 
@@ -1097,9 +1107,6 @@ CREATE TRIGGER user_update_trigger
  ON users
  FOR EACH ROW
    EXECUTE PROCEDURE user_before_insert_or_update_funcs();
-
-
-
 
 
 

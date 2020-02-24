@@ -23,6 +23,7 @@ setup:
 setupdb:
 	docker exec -i dingo-postgres psql -U postgres -c "create database dingo"
 	docker exec -i dingo-postgres psql -U postgres dingo < repo/tables.sql
+	docker exec -i dingo-postgres psql -U postgres dingo < repo/defaults.sql
 
 dropdb:
 	docker exec -i dingo-postgres psql -U postgres -c "drop database dingo"

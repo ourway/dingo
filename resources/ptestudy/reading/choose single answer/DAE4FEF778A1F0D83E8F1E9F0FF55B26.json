@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q2"
+  },
+  {
+    "choices": [
+      "Describing a new method of estimating decreases in global temperature that have occurred over the last 160,000 years",
+      "Describing a method of analysis that provides information regarding the relation between the carbon dioxide content of the Earth’s atmosphere and global temperature",
+      "Presenting information that suggests that global temperature has increased over the last 160,000 years",
+      "Describing the kinds of information that can be gleaned from a careful analysis of the contents of sheets"
+    ]
+  },
+  {
+    "question": "In the passage, the author is primarily concerned with doing which of the following?"
+  },
+  {
+    "text": "Analysis of prehistoric air trapped in tiny bubbles beneath the polar ice sheets and of the composition of ice surrounding those bubbles suggests a correlation between carbon dioxide levels in the Earth’s atmosphere and global temperature over the last 160,000 years. Estimates of global temperature at the time air in the bubbles was trapped rely on measuring the relative abundances of hydrogen and its heavier isotope, deuterium, in the ice surrounding the bubbles. When global temperatures are relatively low, water containing deuterium tends to condense and precipitate before reaching the poles; thus, ice deposited at the poles when the global temperature was cooler contained relatively less deuterium than ice deposited at warmer global temperatures. Estimates of global temperature based on this information, combined with analysis of the carbon dioxide content of air trapped in ice deep beneath the polar surface, suggest that during periods of postglacial warming carbon dioxide in the Earth’s atmosphere increased by approximately 40 percent."
+  }
+]

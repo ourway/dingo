@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw317.mp3"
+  },
+  {
+    "correct_words": [
+      "newspapers",
+      "code",
+      "contract",
+      "awarded",
+      "aware",
+      "exploit"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "newsprint",
+      "court",
+      "contrast",
+      "rewarded",
+      "wary",
+      "expose"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

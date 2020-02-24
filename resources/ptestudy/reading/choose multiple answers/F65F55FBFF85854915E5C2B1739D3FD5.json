@@ -1,0 +1,26 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q4",
+      "q6"
+    ]
+  },
+  {
+    "choices": [
+      "observing what happens during lessons",
+      "evaluating the materials used",
+      "analysing the content of tests",
+      "considering what is taken into account when preparing the curriculum",
+      "comparing this curriculum with other choices that could have been made",
+      "reviewing actual learning compared to curriculum goals",
+      "assessing the effectiveness of teacher preparation for lessons"
+    ]
+  },
+  {
+    "question": "Which of these ways of looking at an institution’s curriculum is outlined in the text?"
+  },
+  {
+    "text": "It is possible to study the curriculum of an educational institution from a number of different perspectives. In the first instance, we can look at curriculum planning, that is at decision-making, in relation to identifying learners’ needs and purposes; establishing goals and objectives; selecting and grading content; organising appropriate learning arrangements and learner groupings; selecting, adapting or developing appropriate materials, learning tasks and assessment and evaluation tools.Alternatively, we can study the curriculum ‘in action’, as it were. This second perspective takes us into the classroom itself. Here, we can observe the teaching/learning process and study the ways in which the intentions of the curriculum planners. which were developed during the planning phase. are put into action.Yet another perspective relates to assessment and evaluation. From this perspective we would try and find out what students had learned and what they had failed to learn, in relation to what had been planned. In addition we might want to find out if they had learned anything which had not been planned."
+  }
+]

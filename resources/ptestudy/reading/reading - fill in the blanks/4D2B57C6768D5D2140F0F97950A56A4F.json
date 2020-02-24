@@ -1,0 +1,24 @@
+[
+  {
+    "correct_words": [
+      "substance",
+      "repels",
+      "observed",
+      "detect"
+    ]
+  },
+  {
+    "text": "The rest of the universe appears to be made of a mysterious, invisiblesubstance _called dark matter (25 percent) and a force thatrepels gravity known as dark energy (70 percent). Scientists have not yet observed dark matter directly. It doesn’t interact with baryonic matter and it’s completely invisible to light and other forms of electromagnetic radiation, making dark matter impossible to detect with current instruments. But scientists are confident it exists because of the gravitational effects it appears to have on galaxies and galaxy clusters."
+  },
+  {
+    "words": [
+      "repels",
+      "detect",
+      "objects",
+      "calculated",
+      "substance",
+      "observed",
+      "find"
+    ]
+  }
+]

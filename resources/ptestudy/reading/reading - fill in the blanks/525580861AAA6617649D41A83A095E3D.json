@@ -1,0 +1,23 @@
+[
+  {
+    "correct_words": [
+      "pass",
+      "security",
+      "public"
+    ]
+  },
+  {
+    "text": "The Dag Hammarskjold Library at United Nations Headquarters in New York is a library designated to facilitate the work of the United Nations and focuses mainly on the needs of the UN Secretariat and diplomatic missions. Anyone with a valid United Nations Headquarters grounds  pass , including specialized agencies, accredited media and NGO staff, is able to visit the library. Due to  security  constraints in place at the United Nations Headquarters complex, the library is not open to the general  public ."
+  },
+  {
+    "words": [
+      "Popularity",
+      "public",
+      "security",
+      "interest",
+      "pass",
+      "transit",
+      "passing"
+    ]
+  }
+]

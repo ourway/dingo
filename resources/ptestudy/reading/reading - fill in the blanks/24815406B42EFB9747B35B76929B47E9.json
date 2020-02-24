@@ -1,0 +1,21 @@
+[
+  {
+    "correct_words": [
+      "prices",
+      "least",
+      "economies"
+    ]
+  },
+  {
+    "text": "Measuring poverty on a global scale requires establishing a uniform poverty level across extremely divergent economies, which can result in only rough comparisons. The World Bank has defined the international poverty line as U.S. $1 and $2 per day in 1993 Purchasing Power Parity (PPP); which adjusts for differences in theprices of goods and services between countries. The $1 per day level is generally used for the least developed countries, primarily African; the $2-per-day level is used for middle income economies  such as those of East Asia and Latin America."
+  },
+  {
+    "words": [
+      "purchasing",
+      "prices",
+      "lower",
+      "least",
+      "economies"
+    ]
+  }
+]

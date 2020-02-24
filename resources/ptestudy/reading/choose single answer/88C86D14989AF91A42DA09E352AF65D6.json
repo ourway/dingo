@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "Engineering is helpful because a majority of companies are science-based or technology-based.",
+      "Engineers know more about how things work.",
+      "Engineering helps you to do things in a more effective way.",
+      "Engineering teaches you how to think practically."
+    ]
+  },
+  {
+    "question": "According to the paragraph, which of the following statement is not correct?"
+  },
+  {
+    "text": "Twenty-four of HBR’S 100 best-performing CEOs have undergraduate or graduate degrees in engineering, compared with 29 who have MBAs. At technology or science-based companies, it’s not a big surprise to find an engineer at the helm. But engineers thrive at the top of other kinds of firms. What makes an engineering degree useful to people leading a business? “Studying engineering gives someone a practical, pragmatic orientation,” says Nitin Nohria, the dean of Harvard Business School, who holds an undergraduate degree in chemical engineering from the Indian Institute of Technology, Bombay. “Engineering is about what works, and it breeds in you an ethos of building things that work – whether it’s a machine or a structure or an organization. Engineering also teaches you to try to do things efficiently and eloquently, with reliable outcomes, and with a margin of safety. It makes you think about costs versus performance. These are principles that can be deeply important when you think about organizations.”"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "Genetically modified food may have been unfairly stigmatized by its critics.",
+      "Mutation breeding produces safer food than does genetic modification.",
+      "Foods produced by genetic modification are healthier than foods produced by mutation breeding.",
+      "Researchers should stop using mutation breeding in order to modify foods."
+    ]
+  },
+  {
+    "question": "Which of the following most accurately summarizes the opinion of the author in the text?"
+  },
+  {
+    "text": "Mutation breeding is a method of crop development that requires breeders to first find plants that randomly display the traits researchers are looking for, and then breed those plants with other plants displaying similar traits. In order to bring about the required mutations, researchers bombard plants with thermal neutrons, x-rays, and known carcinogenic chemicals in order to damage the plant’s DNA. Today, almost all varieties of wheat grown commercially are products of mutation breeding. Ironically, when scientists discovered how to splice desirable genes directly into the plants, thus avoiding the use of harmful chemicals and radiation, critics derided the new process as potentially dangerous despite the lack of any supporting evidence, resulting in boycotts and bans on genetically modified foods."
+  }
+]

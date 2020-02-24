@@ -1,0 +1,29 @@
+[
+  {
+    "correct_words": [
+      "was written",
+      "has been working",
+      "also",
+      "general",
+      "among"
+    ]
+  },
+  {
+    "text": "A Massey ecologist has teamed up with a leading wildlife photographer to produce the definitive book on New Zealand’s national bird, the kiwi. Kiwi: A Natural Historywas writtenby Dr. Isabel Castro and features photographs by Rod Morris. Dr. Castrohas been workingwith kiwi since 1999, with a focus on their behavior. “I’ve specifically been looking at the sense of smell that kiwi uses when foraging, butalsoin their interactions with their environment and other kiwis,” she says. “They really are a very unique bird. They are a collection of odd characteristics – some of them coming from dinosaurs – that have been patched together in a strange way.” She says the book is aimed at a generalaudience “and compiles all of the literature that has already been written about kiwi, it is a great reference tool”.  The book covers all aspects of kiwi, from their evolution, prehistory and closest relatives to their feeding and breeding behaviour and current conservation issues, making this the perfect introduction for anyone with an interest in these fascinating birds. There are five recognised species of kiwi, distributed unevenly in locations throughout New Zealand and ranging from the most widespread, the North Island brown kiwi, to the most endangered, the Rowi. The book is the second title in a new series on New Zealand’s wildlife, targeted at a family readership. Since acquiring her Ph.D. at Massey, Dr. Castro has closely studied New Zealand’s native birds, with a particular focus on Hihi, saddlebacks and kiwi. among other published works, she is the co-author of A Guide to the Birds of the Galápagos Islands."
+  },
+  {
+    "words": [
+      "has been working",
+      "has written",
+      "generally",
+      "also",
+      "among",
+      "have been working",
+      "was written",
+      "general",
+      "only",
+      "generous",
+      "between"
+    ]
+  }
+]

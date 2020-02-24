@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw168.mp3"
+  },
+  {
+    "correct_words": [
+      "computer",
+      "molecules",
+      "organics",
+      "electrical",
+      "different",
+      "fascinating"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "chukka",
+      "grassroots",
+      "batiks",
+      "unethical",
+      "incommensurate",
+      "casing"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

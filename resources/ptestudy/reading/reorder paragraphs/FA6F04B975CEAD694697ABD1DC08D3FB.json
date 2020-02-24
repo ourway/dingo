@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "A scientist is sick.",
+      "He lost his memory and does not know where the kitchen is",
+      "But when he is hungry at night, he is automatically finding the location of the kitchen.",
+      "The scientists have studied it confirmed that 100 years ago."
+    ]
+  },
+  {
+    "sources": [
+      "He lost his memory and does not know where the kitchen is",
+      "A scientist is sick.",
+      "But when he is hungry at night, he is automatically finding the location of the kitchen.",
+      "The scientists have studied it confirmed that 100 years ago."
+    ]
+  }
+]

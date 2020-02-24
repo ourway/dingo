@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw192.mp3"
+  },
+  {
+    "correct_words": [
+      "September",
+      "Association",
+      "associated",
+      "Researchers",
+      "international",
+      "actually",
+      "relatively"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "admixture",
+      "assassination",
+      "postdated",
+      "weaknesses",
+      "hardscrabble",
+      "cantankerously",
+      "threateningly"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

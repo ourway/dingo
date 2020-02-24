@@ -1,0 +1,29 @@
+[
+  {
+    "correct_words": [
+      "income",
+      "average",
+      "distributed",
+      "example",
+      "incidence"
+    ]
+  },
+  {
+    "text": "To understand how many inhabitants of a country are poor, it is not enough to know a country’s per capita income. The number of poor people in a country and the averagequality of life depend on how equally or unequally income is distributedacross the population. In Brazil and Hungary, for example, per capita income levels are quite comparable, but theincidenceof poverty in Brazil is much higher."
+  },
+  {
+    "words": [
+      "example",
+      "outcome",
+      "distributing",
+      "incidence",
+      "maximum",
+      "income",
+      "average",
+      "incident",
+      "incoming",
+      "distributed",
+      "examples"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "A German writer has books list for ***,",
+      "The lists also has other publications…;",
+      "it sorted by dates and ***;",
+      "but it doesn’t provide search function"
+    ]
+  },
+  {
+    "sources": [
+      "A German writer has books list for ***,",
+      "The lists also has other publications…;",
+      "it sorted by dates and ***;",
+      "but it doesn’t provide search function"
+    ]
+  }
+]

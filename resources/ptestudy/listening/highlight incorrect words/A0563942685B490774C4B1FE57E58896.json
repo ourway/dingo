@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw127.mp3"
+  },
+  {
+    "correct_words": [
+      "anti-inflammatory",
+      "conditions",
+      "essential",
+      "actually",
+      "Chemistry",
+      "clinical",
+      "Intagliata"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "coli",
+      "dresses",
+      "sickle",
+      "advocacy",
+      "heresy",
+      "finagle",
+      "partner"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

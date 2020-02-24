@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw105.mp3"
+  },
+  {
+    "correct_words": [
+      "traveling",
+      "salesman",
+      "favorite",
+      "shortest",
+      "comparison",
+      "brute-force"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "canvassing",
+      "appreciation",
+      "educationist",
+      "unrewarded",
+      "nitroglycerine",
+      "colts"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

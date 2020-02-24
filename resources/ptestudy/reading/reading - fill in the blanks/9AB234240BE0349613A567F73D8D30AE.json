@@ -1,0 +1,26 @@
+[
+  {
+    "correct_words": [
+      "generate",
+      "stretch",
+      "sequencing",
+      "suitable",
+      "reliable"
+    ]
+  },
+  {
+    "text": "DNA barcoding was invented by Paul Hebert of the University of Guelph, in Ontario, Canada, in 2003. His idea was togenerate a unique identification tag for each species based on a shortstretchof DNA. Separating species would then be a simple task of sequencingthis tiny bit of DNA. Dr Herbert proposed part of gene called cytochrome c oxidase I (C01) assuitable to the task. It seems to vary enough, but not too much to act as reliable marker."
+  },
+  {
+    "words": [
+      "suitable",
+      "sequencing",
+      "exhausting",
+      "stretch",
+      "contracted",
+      "generate",
+      "reliable",
+      "definition"
+    ]
+  }
+]

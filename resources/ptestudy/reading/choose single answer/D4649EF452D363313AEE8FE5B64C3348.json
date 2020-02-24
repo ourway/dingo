@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q3"
+  },
+  {
+    "choices": [
+      "It was the first experiment to take place in the microgravity environment of space.",
+      "It was the first experiment in which researchers in space were able to grow lysozyme protein crystals greater in size than those grown on Earth.",
+      "Its results have been superseded by subsequent research in the field of microgravity protein crystal growth.",
+      "Its results are still considered by some to be evidence for the advantages of microgravity protein crystal growth."
+    ]
+  },
+  {
+    "question": "According to the passage, which of the following is true about the Space Lab experiment conducted in 1983?"
+  },
+  {
+    "text": "An experiment conducted aboard Space Lab in 1983 was the first attempt to grow protein crystals in the low-gravity environment of space. That experiment is still cited as evidence that growing crystals in microgravity can increase crystal size: the authors reported that they grew lysozyme protein crystals 1,000 times larger than crystals grown in the same device on Earth. Unfortunately, the authors did not point out that their crystals were no larger than the average crystal grown using other, more standard techniques in an Earth laboratory. No research has yet produced results that could justify the enormous costs of producing crystals on a large scale in space. To get an unbiased view of the usefulness of microgravity crystal growth, crystals grown in space must be compared with the best crystals that have been grown with standard techniques on Earth. Given the great expense of conducting such experiments with proper controls, and the limited promise of experiments performed thus far, it is questionable whether further experiments in this area should even be conducted."
+  }
+]

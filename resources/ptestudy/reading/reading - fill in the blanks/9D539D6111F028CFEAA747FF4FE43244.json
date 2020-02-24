@@ -1,0 +1,29 @@
+[
+  {
+    "correct_words": [
+      "majority",
+      "bored",
+      "has",
+      "according",
+      "irrelevant"
+    ]
+  },
+  {
+    "text": "A  majority  of U.S. high school students say they get  bored  in class every day, and more than one out of five  has  considered dropping out, according  to a survey released on Wednesday. The survey of 81,000 students in 26 states found two-thirds of high school students complain of boredom, usually because the subject matter was irrelevant  or their teachers didn’t seem to care about them."
+  },
+  {
+    "words": [
+      "According",
+      "useless",
+      "irrelevant",
+      "according",
+      "bored",
+      "boring",
+      "has",
+      "had",
+      "majority",
+      "number",
+      "based on"
+    ]
+  }
+]

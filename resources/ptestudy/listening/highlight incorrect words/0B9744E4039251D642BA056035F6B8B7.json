@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/30.mp3"
+  },
+  {
+    "correct_words": [
+      "discussed",
+      "research",
+      "scientists",
+      "engineers",
+      "primaries",
+      "wouldn’t"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "attacked",
+      "reserved",
+      "contrivances",
+      "gears",
+      "pipedreams",
+      "corked"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

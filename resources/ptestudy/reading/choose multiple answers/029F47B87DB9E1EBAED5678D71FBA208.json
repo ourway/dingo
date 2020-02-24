@@ -1,0 +1,25 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q2",
+      "q4"
+    ]
+  },
+  {
+    "choices": [
+      "It is much more difficult for humans to prove logical theorems.",
+      "Frey and Osborne are most likely to agree that machines cannot do the jobs cheaply and do them well at the same time.",
+      "More than half of the jobs in America are likely to be automated in the future.",
+      "The “unskilled” jobs are usually carried out by the working-class.",
+      "Robots can outperform humans when doing these “unskilled” jobs.",
+      "It is much easier to get robots to identify objects and pick them up."
+    ]
+  },
+  {
+    "question": "According to the paragraph, which of the following statements are TRUE?"
+  },
+  {
+    "text": "In the early days of artificial intelligence research,it was commonplace for the well-educated academics in the field to think that being “intelligent” meant being good at things that other well-educated academic researchers struggled at, like playing chess. We now know, however, that it is far harder to get robots to do things that come naturally to us (like identifying objects and picking them up) than it is to get them to prove logical theorems or find patterns in huge volumes of data – things we humans struggle at.Carl Frey and Michael Osborne at Oxford University estimate that 47 percent of U.S. jobs are at risk of being automated in the next 20 years. Machines may not do the jobs the same way as people. There is a difference between machines doing something cheaply and doing it well.Frey and Osborne focus on “engineering bottlenecks” in AI and robotics, and compare these stumbling points with the requirements of jobs in order to determine which are most and least likely to be vulnerable to automation. The biggest bottlenecks are perception and manipulation, creative intelligence, and social intelligence, all of which computers struggle mightily at. While the trend in recent decades has been towards a hollowing out of “middle-skill” jobs and as increase in low-paying service sector jobs and high-paying, highly educated jobs, Frey and Osborne expect the automation in the future will mainly substitute for “low-skill and low wage” jobs."
+  }
+]

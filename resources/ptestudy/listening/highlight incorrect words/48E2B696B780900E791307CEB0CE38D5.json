@@ -1,0 +1,26 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw64.mp3"
+  },
+  {
+    "correct_words": [
+      "means",
+      "multiple",
+      "complex",
+      "overseas",
+      "context"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "method",
+      "many",
+      "complicated",
+      "abroad",
+      "environment"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

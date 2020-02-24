@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "Because of great demand, more and more employees are putting themselves into limit.",
+      "They go to work very early, from 7:00 am to 8:00 am",
+      "And they went home very late, some even overwork",
+      "Many managers find the employee’s performance column is decreasing",
+      "They (managers) should avoid this phenomenon, because this is not good for the company."
+    ]
+  },
+  {
+    "sources": [
+      "They go to work very early, from 7:00 am to 8:00 am",
+      "And they went home very late, some even overwork",
+      "They (managers) should avoid this phenomenon, because this is not good for the company.",
+      "Because of great demand, more and more employees are putting themselves into limit.",
+      "Many managers find the employee’s performance column is decreasing"
+    ]
+  }
+]

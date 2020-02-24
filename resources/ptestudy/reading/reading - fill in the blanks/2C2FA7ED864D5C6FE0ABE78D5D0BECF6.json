@@ -1,0 +1,23 @@
+[
+  {
+    "correct_words": [
+      "evolving",
+      "decreasing",
+      "increasing",
+      "examines"
+    ]
+  },
+  {
+    "text": "The stock of Australia’s dwellings is evolving , with current homes having more bedrooms on average than homes ten years ago. At the same time, households are getting smaller on average with decreasing  proportions of couple families with children and increasing couple only and lone person households. This article  examines  the changes in household size and number of bedrooms from 1994-95 to 2003-04."
+  },
+  {
+    "words": [
+      "increasing",
+      "investigation",
+      "decreasing",
+      "evolving",
+      "examines",
+      "research"
+    ]
+  }
+]

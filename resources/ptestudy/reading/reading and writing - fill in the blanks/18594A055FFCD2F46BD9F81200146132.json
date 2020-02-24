@@ -1,0 +1,59 @@
+[
+  {
+    "answers": [
+      "strike",
+      "precision",
+      "developed",
+      "model",
+      "internal",
+      "frequencies"
+    ]
+  },
+  {
+    "selections": [
+      [
+        "work",
+        "strike",
+        "comply",
+        "stab"
+      ],
+      [
+        "carefulness",
+        "roughness",
+        "precision",
+        "exactness"
+      ],
+      [
+        "invented",
+        "exploited",
+        "made",
+        "developed"
+      ],
+      [
+        "model",
+        "software",
+        "system",
+        "module"
+      ],
+      [
+        "external",
+        "internal",
+        "outer",
+        "inner"
+      ],
+      [
+        "volumes",
+        "speeds",
+        "frequencies",
+        "amplitudes"
+      ]
+    ]
+  },
+  {
+    "text": [
+      "The horned desert viper’s ability to hunt at night has always puzzled biologists. Though it lies with its head buried in the sand, it can workstrikecomplystabstrike with great carefulnessroughnessprecisionexactnessprecision as soon as prey appears. “Sometimes you even see the snake fly up and whirl round in the air to strike a mouse passing behind it,” says Bruce Young, a biologist at Washburn University in Topeka, Kansas.",
+      "Now, Young and physicists Leo van Hemmen and Paul Friedel at the Technical University of Munich in Germany have inventedexploitedmadedevelopeddeveloped a computermodelsoftwaresystemmodulemodel of the snake’s auditory system to explain how the snake “hears” its prey without really having the ears for it.",
+      "Although the vipers have externalinternalouterinnerinternal  ears that can hear volumesspeedsfrequenciesamplitudesfrequencies between 200 and 1000 hertz, it is not the sound of the mouse scurrying about that they are detecting. “The snakes don’t have external eardrums,” says van Hemmen. “So unless the mouse wears boots and starts stamping, the snake won’t hear it.”"
+    ]
+  }
+]

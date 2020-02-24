@@ -1,0 +1,24 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw233.mp3"
+  },
+  {
+    "correct_words": [
+      "philosophers",
+      "colleagues",
+      "fiber-optic",
+      "artificial"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "intangibles",
+      "anatomies",
+      "operatic",
+      "skittle"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

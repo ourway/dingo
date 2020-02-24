@@ -1,0 +1,26 @@
+[
+  {
+    "correct_words": [
+      "of designing",
+      "then progressively",
+      "Instead of spending",
+      "the biggest challenge"
+    ]
+  },
+  {
+    "text": "Progressive enhancement is a design practice based on the idea that instead  of designing  for the least capable browser, or mangling our code to make a site look the same in every browser, we should provide a core set of functionality and information to all users, and  then progressively  enhance the appearance and behavior of the site for users of more capable browsers. It’s very productive development practice.  Instead of spendinghours working out how to add drop shadows to the borders of an element in every browser, we simply use the standards-based approach for browsers that support it and don’t even attempt to implement it in browsers that don’t. After all, the users of older and less capable browsers won’t know what they are missing. the biggest challenge to progressive enhancement is the belief among developers and clients that websites should look the same in every browser. As a developer, you can simplify your life and dedicate your time to more interesting challenges if you let go of this outdated notion and embrace progressive enhancement."
+  },
+  {
+    "words": [
+      "of designing",
+      "then progressively",
+      "Instead of spending",
+      "the large challenge.",
+      "the biggest challenge",
+      "of building",
+      "then gradually",
+      "the critical challenge",
+      "instead of wasting"
+    ]
+  }
+]

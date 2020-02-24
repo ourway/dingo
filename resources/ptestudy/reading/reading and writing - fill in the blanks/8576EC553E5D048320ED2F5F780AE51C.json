@@ -1,0 +1,45 @@
+[
+  {
+    "answers": [
+      "immunize",
+      "method",
+      "consisted of",
+      "condition"
+    ]
+  },
+  {
+    "selections": [
+      [
+        "immunize",
+        "cure",
+        "serve",
+        "treat"
+      ],
+      [
+        "way",
+        "method",
+        "approach",
+        "mean"
+      ],
+      [
+        "made of",
+        "made from",
+        "consisted of",
+        "origin from"
+      ],
+      [
+        "condition",
+        "situation",
+        "circumstance",
+        "character"
+      ]
+    ]
+  },
+  {
+    "text": [
+      "According to the literature, the history of vaccination can be traced back to as early as the 7th century when the monks in India tried to immunizecureservetreatimmunize themselves by drinking snake venom. The first vaccination was inoculation with human smallpox, a practice widely carried out in ancient India, Arabia, and China. This waymethodapproachmeanmethod of vaccination made ofmade fromconsisted oforigin fromconsisted of collecting pus from a patient suffering from mild form of smallpox virus infection and inoculating the sample to a healthy human, which later led to a minor infection.",
+      "This method was first introduced in England by a Greek named E. Timoni. However, this method had a risk of spreading smallpox in the community and even worsening the health conditionsituationcircumstancecharactercondition of the person who received the inoculation.",
+      "While the use of human smallpox vaccine was controversial, E. Jenner came up with bovine smallpox vaccine in 1796; this new method also faced controversy, but continued to be universalized. Smallpox became a preventable disease by injecting pus extracted from a human infected with cowpox virus. Jenner named the substance “vaccine” after the Latin word “vacca” which means “cow,” and thus the process of giving vaccine became “vaccination”"
+    ]
+  }
+]

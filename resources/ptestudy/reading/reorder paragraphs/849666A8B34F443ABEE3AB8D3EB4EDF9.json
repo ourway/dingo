@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "There are more than 100 schools in the country.",
+      "Do not ever choose a school without going to the place and having a look. You should go and see once you have a chance.",
+      "You can see the facilities and accommodations around the school.",
+      "Because you might be living there.",
+      "And they can be helpful to your study as well."
+    ]
+  },
+  {
+    "sources": [
+      "You can see the facilities and accommodations around the school.",
+      "And they can be helpful to your study as well.",
+      "There are more than 100 schools in the country.",
+      "Do not ever choose a school without going to the place and having a look. You should go and see once you have a chance.",
+      "Because you might be living there."
+    ]
+  }
+]

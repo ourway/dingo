@@ -1,0 +1,51 @@
+[
+  {
+    "answers": [
+      "generate",
+      "stretch",
+      "extracted",
+      "boon",
+      "realm"
+    ]
+  },
+  {
+    "selections": [
+      [
+        "create",
+        "get",
+        "receive",
+        "generate"
+      ],
+      [
+        "blend",
+        "bleach",
+        "stretch",
+        "sketch"
+      ],
+      [
+        "examined",
+        "found",
+        "extracted",
+        "broke"
+      ],
+      [
+        "success",
+        "boon",
+        "boom",
+        "failure"
+      ],
+      [
+        "realm",
+        "area",
+        "aspect",
+        "scope"
+      ]
+    ]
+  },
+  {
+    "text": [
+      "DNA barcoding was invented by Paul Hebert of the University of Guelph, in Ontario, Canada, in 2003. His idea was to creategetreceivegenerategenerate a unique identification tag for each species based on a short blendbleachstretchsketchstretch of DNA. Separating species would then be a simple task of sequencing this tiny bit of DNA. Dr Hebert proposed part of a gene called cytochrome c oxidase I (COI) as suitable to the task. All animals have it. It seems to vary enough, but not too much, to act as a reliable marker. And it is easily examinedfoundextractedbrokeextracted , because it is one of a handful of genes found outside the cell nucleus, in structures called mitochondria.",
+      "Barcoding has taken off rapidly since Dr Hebert invented it. When the idea was proposed, it was expected to be a successboonboomfailureboon to taxonomists trying to name the world’s millions of species. It has, however, proved to have a far wider range of uses than the merely academic—most promisingly in therealmareaaspectscoperealm of public health."
+    ]
+  }
+]

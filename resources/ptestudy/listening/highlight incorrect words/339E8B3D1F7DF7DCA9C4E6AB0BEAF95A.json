@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/003.mp3"
+  },
+  {
+    "correct_words": [
+      "mass",
+      "dimension",
+      "hungry",
+      "away",
+      "lecture",
+      "presented"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "massive",
+      "version",
+      "eager",
+      "afield",
+      "leisure",
+      "pretended"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

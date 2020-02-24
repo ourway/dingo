@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "A requirement of Humanities 104 is to write a persuasive paper on a topic of your choice.",
+      "The topic you choose should be supported by a range of sources.",
+      "The source should be cited under APA guidelines, and the final draft should be written in APA styles.",
+      "The final draft is due one week before the final exam"
+    ]
+  },
+  {
+    "sources": [
+      "The source should be cited under APA guidelines, and the final draft should be written in APA styles.",
+      "The topic you choose should be supported by a range of sources.",
+      "A requirement of Humanities 104 is to write a persuasive paper on a topic of your choice.",
+      "The final draft is due one week before the final exam"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "answers": [
+      "q2",
+      "q5"
+    ]
+  },
+  {
+    "audio": "https://ptestudy.net/audio/lmcma/013.mp3"
+  },
+  {
+    "choices": [
+      "suggest ways to make indoor lighting more economical.",
+      "illustrate how an everyday object could inspire new technology.",
+      "persuade listeners to participate in a scientific study.",
+      "describe an artistic exhibition using familiar items.",
+      "encourage listeners to think creatively about mundane items."
+    ]
+  },
+  {
+    "question": "The purpose of this talk is to…?"
+  },
+  {
+    "text": "If you think about light bulbs, they’re an enormous infrastructure. They’re in every building in the world, more or less, they have kind of a privileged position above us, around us, they can see, if you think about it, you know, most parts of any room. The kind of key was to say, well, what if we consider a light bulb not to be a light bulb, but actually to be a digital projector. It just happens to be really low resolution. In fact, it’s a one by one pixel digital projector. You turn on the wall switch and a giant pixel comes out and paints your room. OK, well, that’s ludicrous, but what if you put a higher resolution projector inside that same familiar glass bulb? Well, now you have a device that can illuminate. If you turn on all the pixels the same color, you still have a light bulb in the usual sense. But if you turn on the pixels different amounts and different colors, then you’re kind of projecting information out into the world. And if at the same time that you’re doing that, you put a little tiny camera inside the bulb, then not only is information flowing out of the glass, but you’re collecting optical information. So screw one of those into every one of these fixtures and suddenly you have a means potentially to put, display an interaction everywhere throughout the world."
+  }
+]

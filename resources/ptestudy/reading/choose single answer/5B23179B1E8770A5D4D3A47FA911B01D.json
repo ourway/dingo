@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q3"
+  },
+  {
+    "choices": [
+      "The elements of the group of alkali metals were the first elements in the order of increasing atomic mass.",
+      "Repetition of the same atomic masses for elements in different groups appeared.",
+      "Elements with similar chemical properties appeared in the listing at regular intervals.",
+      "Elements were chemically most similar to those just before and after them in the order."
+    ]
+  },
+  {
+    "question": "According to this passage, what pattern did scientists notice when the known elements were written in order of increasing atomic mass?"
+  },
+  {
+    "text": "The periodic table is a chart that reflects the periodic recurrence of chemical and physical properties of the elements when the elements are arranged in order of increasing atomic number (the number of protons in the nucleus). It is a monumental scientific achievement, and its development illustrates the essential interplay between observation, prediction, and testing required for scientific progress. In the 1800’s scientists were searching for new elements. By the late 1860’s more than 60 chemical elements had been identified, and much was known about their descriptive chemistry. Various proposals were put forth to arrange the elements into groups based on similarities in chemical and physical properties. The next step was to recognize a connection between group properties (physical or chemical similarities) and atomic mass (the measured mass of an individual atom of an element). When the elements known at the time were ordered by increasing atomic mass, it was found that successive elements belonged to different chemical groups and that the order of the groups in this sequence was fixed and repeated itself at regular intervals. Thus when the series of elements was written so as to begin a new horizontal row with each alkali metal, elements of the same groups were automatically assembled in vertical columns in a periodic table of the elements. This table was the forerunner of the modern table."
+  }
+]

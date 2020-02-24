@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw14.mp3"
+  },
+  {
+    "correct_words": [
+      "discussed",
+      "research",
+      "scientists",
+      "engineers",
+      "Pennsylvania",
+      "wouldn’t"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "attacked",
+      "reserved",
+      "contrivances",
+      "gears",
+      "raver",
+      "corked"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

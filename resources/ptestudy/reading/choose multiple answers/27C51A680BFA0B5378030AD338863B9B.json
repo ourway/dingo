@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q2",
+      "q4"
+    ]
+  },
+  {
+    "choices": [
+      "A large amount of dust blocked sunlight from Earth.",
+      "Earth became cold and dark for several months.",
+      "New elements were formed in Earth’s crust.",
+      "Large quantities of nitric acid were produced."
+    ]
+  },
+  {
+    "question": "According to the paragraph, which of the following statements are true of the impact at the end of the Cretaceous period:"
+  },
+  {
+    "text": "The impact of a meteorite released an enormous amount of energy, excavating a crater about twice as large as the lunar crater Tycho. The explosion lifted about 100 trillion tons of dust into the atmosphere, as can be determined by measuring the thickness of the sediment layer formed when this dust settled to the surface. Such a quantity of material would have blocked the sunlight completely from reaching the surface, plunging Earth into a period of cold and darkness that lasted at least several months. The explosion is also calculated to have produced vast quantities of nitric acid and melted rock that sprayed out over much of Earth, starting widespread fires that must have consumed most terrestrial forests and grassland. Presumably, those environmental disasters could have been responsible for the mass extinction, including the death of the dinosaurs."
+  }
+]

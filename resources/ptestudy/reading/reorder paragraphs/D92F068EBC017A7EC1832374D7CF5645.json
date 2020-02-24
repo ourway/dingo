@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "In the summer of 1992, the first year I became president of XYZ, I decided to take a two-week vacation.",
+      "But as soon I arrived at my country house, the telephone began ringing",
+      "And it kept right on ringing with questions from people back at the office about the most mundane matters",
+      "Of course, sitting out in the country I possessed less information than anyone else at headquarters about was going on, but they called me anyway"
+    ]
+  },
+  {
+    "sources": [
+      "But as soon I arrived at my country house, the telephone began ringing",
+      "And it kept right on ringing with questions from people back at the office about the most mundane matters",
+      "In the summer of 1992, the first year I became president of XYZ, I decided to take a two-week vacation.",
+      "Of course, sitting out in the country I possessed less information than anyone else at headquarters about was going on, but they called me anyway"
+    ]
+  }
+]

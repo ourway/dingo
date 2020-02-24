@@ -1,0 +1,26 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/017.mp3"
+  },
+  {
+    "correct_words": [
+      "primary",
+      "generally",
+      "assistant",
+      "normally",
+      "training"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "lively",
+      "might",
+      "officials",
+      "always",
+      "upgrading"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

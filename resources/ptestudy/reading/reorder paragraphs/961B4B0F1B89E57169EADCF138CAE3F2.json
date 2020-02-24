@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "Several years ago, senior executives from Procter & Gamble and Wal-Mart met for two days",
+      "They wanted to explore how they could jointly apply quality management principles to the disposable diaper business.",
+      "As a result of this meeting, a team of Procter & Gamble employees moved to Bentonville, Arkansas, Wal-Mart’s headquarters, to work with Wal-Mart executives on productivity and quality issues",
+      "Wal-Mart has increased its Procter & Gamble diaper business by 50 percent and cut inventory by 70 percent because of this collaboration"
+    ]
+  },
+  {
+    "sources": [
+      "Several years ago, senior executives from Procter & Gamble and Wal-Mart met for two days",
+      "Wal-Mart has increased its Procter & Gamble diaper business by 50 percent and cut inventory by 70 percent because of this collaboration",
+      "They wanted to explore how they could jointly apply quality management principles to the disposable diaper business.",
+      "As a result of this meeting, a team of Procter & Gamble employees moved to Bentonville, Arkansas, Wal-Mart’s headquarters, to work with Wal-Mart executives on productivity and quality issues"
+    ]
+  }
+]

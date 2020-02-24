@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "Microorganisms resistant to drugs",
+      "Therapeutically useful circlets of genes",
+      "Anti-infective drugs like penicillin",
+      "Viruses for use by molecular biologists"
+    ]
+  },
+  {
+    "question": "According to the passage, the exchange of plasmids between different bacteria can results in which of the following?"
+  },
+  {
+    "text": "The Food and Drug Administration has recently proposed severe restrictions on the use of antibiotics to promote the health and growth of meat animals. Medications added to feeds kill many microorganisms but also encourage the appearance of bacterial strains that are resistant to anti-infective drugs. Already, for example, penicillin and the tetracyclines are not as effective therapeutically as they once were. The drug resistance is chiefly conferred by tiny circlets of genes, called plasmids, that can be exchanged between different strains and even different species of bacteria. Plasmids are also one of the two kinds of vehicles (the other being viruses) that molecular biologists depend on when performing gene transplant experiments. Even present guidelines forbid the laboratory use of plasmids bearing genes for resistance to antibiotics. Yet, while congressional debate rages over whether or not to toughen these restrictions on scientists in their laboratories, little congressional attention has been focused on an ill-advised agricultural practice that produces known deleterious effects."
+  }
+]

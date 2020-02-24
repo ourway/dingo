@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q2"
+  },
+  {
+    "choices": [
+      "There are too many species to count them all.",
+      "The number of species is constantly changing.",
+      "Currently, more species are appearing than are becoming extinct.",
+      "Human action has upset the balance of the natural environment."
+    ]
+  },
+  {
+    "question": "Why is it difficult to establish the number of species globally?"
+  },
+  {
+    "text": "There are innumerable different species on the planet. Nobody really knows how many species there are，although many scientists have tried to estimate it. However, the complexity of trying to do this makes it impossible to establish a definitive number with any confidence. This is probably due to the fact that new species are continually appearing, while at the same time existing species evolve and some become extinct. In the past, the number of new species appearing exceeded the number of those dying out. Nowadays, however，due to human activity, this trend has reversed and as a result we are in danger of seriously disturbing our ecosystem."
+  }
+]

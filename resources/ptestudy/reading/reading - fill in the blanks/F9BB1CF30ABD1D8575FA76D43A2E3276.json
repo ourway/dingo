@@ -1,0 +1,23 @@
+[
+  {
+    "correct_words": [
+      "stellar",
+      "stretches",
+      "located"
+    ]
+  },
+  {
+    "text": "Stars and the material between them are almost always found in gigantic  stellar  systems called galaxies. Our own galaxy, the Milky Way System; happens to be one of the two largest systems in the Local Group of two dozen or so galaxies_ The other is the Andromeda galaxy; it stretches  more than one hundred thousand light- years from one end to the other, and it is  located  about two million light-years distant from us."
+  },
+  {
+    "words": [
+      "stellar",
+      "stars",
+      "expanding",
+      "stretches",
+      "determined",
+      "located",
+      "placed"
+    ]
+  }
+]

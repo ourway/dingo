@@ -1,0 +1,26 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q4",
+      "q6"
+    ]
+  },
+  {
+    "choices": [
+      "Increase the accessibility to the railway network;",
+      "Reduce air pollution;",
+      "Employ less employees;",
+      "Offer more efficient information exchange;",
+      "Operate at a plethora of different voltages.",
+      "Lower noise levels;",
+      "Limit the use of cargo traffic"
+    ]
+  },
+  {
+    "question": "The investment in transport infrastructure mainly focuses on:"
+  },
+  {
+    "text": "Europe has long benefited from a dense railway network and is the world leader in the supply of railway systems. Employing 1 million people in rail operations and another 250,000 in manufacturing, the European railway sector has a 60% share of the world market and an annual turnover of €95 billion. Most railways in the EU are electrified. The electrified railway networks operate at a plethora of different voltages, both AC and DC varying from 750 to 25,000 volts. Electric railways offer better energy efficiency, lower emissions and are quieter.Rail transport offers a viable and competitive means of shifting more cargo traffic away from the continent’s crowded roads, thus improving traffic circulation and cutting vehicle-emitted pollution. The EU places particular emphasis on stimulating new investment in trans-European transport infrastructure such as rail, and supports research efforts to create new methods of interoperability, improve access to the railway network for freight transport, create higher safety standards and reduce rail-related noise levels."
+  }
+]

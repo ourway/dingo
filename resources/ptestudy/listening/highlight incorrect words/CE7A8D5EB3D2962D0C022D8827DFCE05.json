@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/010.mp3"
+  },
+  {
+    "correct_words": [
+      "shift",
+      "something",
+      "efficient",
+      "standardization",
+      "assumptions",
+      "fundamentally",
+      "discovery"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "rift",
+      "everything",
+      "effective",
+      "centralization",
+      "presumptions",
+      "functionally",
+      "recovery"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

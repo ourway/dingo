@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "The colors of the sunset result from a phenomenon called scattering, says Steven Ackerman, professor of meteorology at UW_Madison.",
+      "Molecules and small particles in the atmosphere change the direction of light rays, causing them to scatter.",
+      "Scattering affects the color of light coming from the sky",
+      "But the details are determined by the wavelength of the light and the size of the particle."
+    ]
+  },
+  {
+    "sources": [
+      "But the details are determined by the wavelength of the light and the size of the particle.",
+      "Molecules and small particles in the atmosphere change the direction of light rays, causing them to scatter.",
+      "Scattering affects the color of light coming from the sky",
+      "The colors of the sunset result from a phenomenon called scattering, says Steven Ackerman, professor of meteorology at UW_Madison."
+    ]
+  }
+]

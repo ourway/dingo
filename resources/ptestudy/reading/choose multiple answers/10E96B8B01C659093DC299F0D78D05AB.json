@@ -1,0 +1,24 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q5"
+    ]
+  },
+  {
+    "choices": [
+      "All living animals can lie.",
+      "To be a good liar one has to understand other people’s emotions.",
+      "Lying as a survival skill is more important than detecting a lie.",
+      "Scientists have used computers to analyze which part of brain is responsible for telling lies.",
+      "Some people tell lies for self-preservation.",
+      "The secret art of deception has been anaylzed by 15 researchers."
+    ]
+  },
+  {
+    "question": "Which of the following statements about lying match the information in the passage?"
+  },
+  {
+    "text": "However much we may abhor it, deception comes naturally to all living things. Birds do it by feigning injury to lead hungry predators away from nesting young. Spider crabs do it by disguise: adorning themselves with strips of kelp and other debris, they pretend to be something they are not – and so escape their enemies. Nature amply rewards successful deceivers by allowing them to survive long enough to mate and reproduce. So it may come as no surprise to learn that human beings – who, according to psychologist Gerald Jellison of the University of South California, are lied to about 200 times a day, roughly one untruth every five minutes – often deceive for exactly the same reasons: to save their own skins or to get something they can’t get by other means. But knowing how to catch deceit can be just as important a survival skill as knowing how to tell a lie and get away with it. By closely observing facial expressions, body language and tone of voice, practically anyone can recognize the telltale signs of lying. Researchers are even programming computers – like those used on Lie Detector – to get at the truth by analyzing the same physical cues available to the naked eye and ear. ‘With the proper training, many people can learn to reliably detect lies’, says Paul Ekman, professor of psychology at the University of California, San Francisco, who has spent the past 15 years studying the secret art of deception."
+  }
+]

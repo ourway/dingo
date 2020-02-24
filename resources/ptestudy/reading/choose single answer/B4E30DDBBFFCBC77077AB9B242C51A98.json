@@ -1,0 +1,20 @@
+[
+  {
+    "answers": "q5"
+  },
+  {
+    "choices": [
+      "Explicate their main features",
+      "Suggest an alternative to them",
+      "Examine their virtues and limitations",
+      "Criticize the major evidence used to support them",
+      "Present findings that qualify them"
+    ]
+  },
+  {
+    "question": "The primary purpose of the passage is to treat the accepted generalizations about organ transplantation in which of the following ways?"
+  },
+  {
+    "text": "The transplantation of organs from one individual to another normally involves two major problems: (1) organ rejection is likely unless the transplantation antigens of both individuals are nearly identical, and (2) the introduction of any unmatched transplantation antigens induces the development by the recipient of donor-specific lymphocytes that will produce violent rejection of further transplantations from that donor. However, we have found that among many strains of rats these “normal” rules of transplantation are not obeyed by liver transplants. Not only are liver transplants never rejected, but they even induce a state of donor-specific unresponsiveness in which subsequent transplants of other organs, such as skin, from that donor are accepted permanently. Our hypothesis is that (1) many strains of rats simply cannot mount a sufficiently vigorous destructive immune-response (using lymphocytes) to outstrip the liver’s relatively great capacity to protect itself from immune-response damage and that (2) the systemic unresponsiveness observed is due to concentration of the recipient’s donor-specific lymphocytes at the site of the liver transplant."
+  }
+]

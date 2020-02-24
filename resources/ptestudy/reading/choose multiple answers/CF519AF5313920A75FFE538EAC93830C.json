@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q3"
+    ]
+  },
+  {
+    "choices": [
+      "Space factor is related to the space around each bead, and the greater disorder indicates a higher possibility of avalanche.",
+      "The greater the disorder around a bead, the less likely an avalanche was.",
+      "Internal disorder analysis will lead to a more successful model.",
+      "They could 100% accurately predict an extra-large avalanche based on the change in space factor of a bead.",
+      "Forecasting earthquakes is easier than predicting avalanche."
+    ]
+  },
+  {
+    "question": "According to the text, what can we learn from the “space factor”-a measure of the disorder in the system?"
+  },
+  {
+    "text": "Now, Osvanny Ramos of the Ecole Normale Suprieure in Lyon, France, and colleagues say prediction is possible after all. They designed an experiment that induced avalanches in a two-dimensional pile of 4-millimetre-diameter steel beads. They placed a 60-centimetre row of randomly spaced beads between two parallel, vertical glass plates 4.5 millimetres apart, with the beads glued to the bottom to simulate the ground under a natural pile. Then they dropped in one bead at a time, creating piles of up to 55,000 beads. After each drop, the team photographed the pile and measured the position of each bead to calculate the “space factor” – a measure of the disorder in the system, which was related to the space surrounding each bead (see diagram). The greater the disorder round a bead, the more likely an avalanche was. If one or more beads moved when a new bead fell on the pile, that was considered to be an avalanche. An extra-large avalanche involved between 317 and 1000 beads. The researchers found that if the space factor before a bead dropped was greater than it had been 50 steps earlier, they could predict an extra-large avalanche with 64 per cent accuracy. Ramos says that they can improve the odds by analysing more information, such as the size of the pile (Physical Review Letters, vol 102, p078701).The work could also have important consequences for predicting earthquakes. Ramos has an inkling why forecasting earthquakes is so difficult: seismologist tend to use information about the time and size of events, known as a time series. However, Ramos found that this didn’t help predict the next big avalanche. “When seismologists try to predict earthquakes, they analyse the time series,” he says. He argues that they would have more successes analysing data analogous to the internal disorder in the pile of beads."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "answers": [
+      "question",
+      "examples",
+      "knowledge"
+    ]
+  },
+  {
+    "selections": [
+      [
+        "question",
+        "answer",
+        "questing",
+        "situation"
+      ],
+      [
+        "cons",
+        "exemplifies",
+        "prose",
+        "examples"
+      ],
+      [
+        "knowing",
+        "knowledge",
+        "knowledgeable",
+        "known"
+      ]
+    ]
+  },
+  {
+    "text": "What is music? In one sense, this is an easyquestionanswerquestingsituationquestion. Even the least musical among us can recognize pieces of music when we hear them and name a few canonical consexemplifiesproseexamplesexamples. We know there are different kinds of music and, even if ourknowingknowledgeknowledgeableknownknowledgeof music is restricted, we know which kinds we like and which kinds we do not."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "correct_words": [
+      "because",
+      "nevertheless",
+      "exposed",
+      "magnitude"
+    ]
+  },
+  {
+    "text": "So why is it a concern? It is because  radioactivity is invisible and un-sensed, and for that reason is perceived as scary. nevertheless, we understand quite well the radiation levels to which people can be  exposed without harm, and those levels, are orders of  magnitude above at the typical background levels."
+  },
+  {
+    "words": [
+      "exposed",
+      "because",
+      "although",
+      "in addition",
+      "magnitude",
+      "randomly",
+      "nevertheless"
+    ]
+  }
+]

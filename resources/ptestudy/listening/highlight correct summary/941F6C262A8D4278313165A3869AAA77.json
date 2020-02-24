@@ -1,0 +1,19 @@
+[
+  {
+    "answer": "q1"
+  },
+  {
+    "audio": "https://ptestudy.net/audio/hcs/018.mp3"
+  },
+  {
+    "choices": [
+      "Epilepsy is a common and chronic disorder, mostly without a known cause, in which the brain shows abnormal activity. The treatment controls it but does not necessarily cure it.",
+      "Epilepsy is quite common among children, though some adults are also affected. It usually goes off at its own, but in some cases may cause Alzheimer’s and stroke.",
+      "Epilepsy is usually treated with medication, though it needs surgery in extreme cases. In seventy percent cases there is no known cause.",
+      "Epilepsy may sometimes hint at other neurological problems like brain tumor, stroke or meningitis. So, it needs to be treated with care."
+    ]
+  },
+  {
+    "text": "Explanation: Key words: common disorder, abnormal brain activity, controlled but not cure with medication, 70% – no known cause. Option 2 unnecessarily gives EP as a cause for Alzheimer’s and stroke. Option 3 provides a part answer. Option 4 confuses the cause and effect"
+  }
+]

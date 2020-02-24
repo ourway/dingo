@@ -1,0 +1,26 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw139.mp3"
+  },
+  {
+    "correct_words": [
+      "scientist",
+      "colleagues",
+      "technologies",
+      "processes",
+      "consumer"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "inviolate",
+      "sunbeams",
+      "curiosities",
+      "abscesses",
+      "seducer"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

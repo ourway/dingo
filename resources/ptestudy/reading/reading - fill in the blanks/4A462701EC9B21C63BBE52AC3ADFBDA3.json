@@ -1,0 +1,24 @@
+[
+  {
+    "correct_words": [
+      "head",
+      "system",
+      "eardrums"
+    ]
+  },
+  {
+    "text": "The horned desert viper’s ability to hunt at night has always puzzled biologists. Though it lies with its head  buried in the sand, it can strike with great precision as soon as prey appears. Now, researchers have developed a computer model of the snake’s auditory systemto explain how it ?hears? its prey without having any external eardrums"
+  },
+  {
+    "words": [
+      "system",
+      "hearing",
+      "eardrums",
+      "equipment",
+      "ears",
+      "head",
+      "scheme",
+      "structure"
+    ]
+  }
+]

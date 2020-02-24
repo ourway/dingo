@@ -1,0 +1,22 @@
+[
+  {
+    "answer": "q2"
+  },
+  {
+    "audio": "https://ptestudy.net/audio/lmcsa/listening-multi-choice-single-answer-audio10.mp3"
+  },
+  {
+    "choices": [
+      "The most important factor for the survival of a species is its ability to compete and adapt to gradual changes in its environment.",
+      "The ability of a species to compete and adapt to a gradually changing environment is not the only ability that is essential for survival.",
+      "Since most extinctions of species are due to major meteorite impacts, the ability to survive such impacts is the most important factor for the survival of a species.",
+      "The factors that are most important for the survival of a species vary significantly from one species to another."
+    ]
+  },
+  {
+    "question": "What is the lecture mainly about?"
+  },
+  {
+    "text": "Impacts by meteorites represent one mechanism that could cause global catastrophes and seriously influence the evolution of life all over the planet. According to some estimates, the majority of all extinctions of species may be due to such impacts. Such a perspective fundamentally changes our view of biological evolution. The standard criterion for the survival of a species is its success in competing with other species and adapting too slowly changing environments. Yet an equally important criterion is the ability of a species to survive random global ecological catastrophes due to impacts."
+  }
+]

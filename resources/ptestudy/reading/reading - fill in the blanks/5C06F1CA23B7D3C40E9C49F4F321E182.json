@@ -1,0 +1,22 @@
+[
+  {
+    "correct_words": [
+      "suggests",
+      "Because",
+      "impetus"
+    ]
+  },
+  {
+    "text": "The coastal hypothesis suggests  , an economy based on marine mammal hunting, saltwater fishing, shelfish gathering, and the use of watercraft.  Because of the barrier of ice to the east, the Pacific ocean to the west, and populated areas to the north, may have been a greater impetus  for people to move in a southerly direction."
+  },
+  {
+    "words": [
+      "speed",
+      "suggests",
+      "recommends",
+      "impetus",
+      "Because",
+      "in spite"
+    ]
+  }
+]

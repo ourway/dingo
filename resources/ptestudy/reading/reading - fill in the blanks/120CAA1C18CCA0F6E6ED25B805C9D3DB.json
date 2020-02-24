@@ -1,0 +1,24 @@
+[
+  {
+    "correct_words": [
+      "management",
+      "disproportionately",
+      "agriculture",
+      "sustenance"
+    ]
+  },
+  {
+    "text": "Equitable and sustainablemanagement of water resources is a major global challenge. About one third of the world’s population lives in countries with moderate to high water stress with  disproportionately high impacts on the poor. With current projected human population growth, industrial development and the expansion of irrigated  agriculture in the next two decades, water demand will rise to levels that will make the task of providing water for human  sustenance _ more difficult."
+  },
+  {
+    "words": [
+      "agriculture",
+      "sustenance",
+      "proportionately",
+      "industry",
+      "disproportionately",
+      "management",
+      "sustain"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q2"
+    ]
+  },
+  {
+    "choices": [
+      "The brain is designed to enable quick decision making.",
+      "Quick decision making can be improved.",
+      "Quick decision making routinely leads to error.",
+      "To make correct decisions we require all relevant information.",
+      "Thinking things through thoroughly will lead to greater success."
+    ]
+  },
+  {
+    "question": "Which of the following does the passage tell us about decision making?"
+  },
+  {
+    "text": "By the laws of probability, most decisions made under pressure should be flawed ones, yet psychologists have found that people routinely make correct judgments most of the time, even with limited information. One of Gladwell’s surprising points is that we can actually learn how to make better snap judgments, in the same way that we can learn logical, deliberative thinking. But first we have to accept the idea that thinking long and hard about something does not always deliver us better results, and that the brain actually evolved to make us think on our feet."
+  }
+]

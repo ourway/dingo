@@ -1,0 +1,22 @@
+[
+  {
+    "correct_order": [
+      "The fiscal deficit has deteriorated.",
+      "The current reforms pace is too slow",
+      "Industry too is not ready to deliver growth, should even the government pursue the right policies",
+      "There are big gaps in perception and capability of managers",
+      "Government finances are terminally impaired with uncontrolled fiscal deficits",
+      "A good budget is one which makes a sincere attempt to change the policy environment"
+    ]
+  },
+  {
+    "sources": [
+      "Government finances are terminally impaired with uncontrolled fiscal deficits",
+      "There are big gaps in perception and capability of managers",
+      "The fiscal deficit has deteriorated.",
+      "Industry too is not ready to deliver growth, should even the government pursue the right policies",
+      "The current reforms pace is too slow",
+      "A good budget is one which makes a sincere attempt to change the policy environment"
+    ]
+  }
+]

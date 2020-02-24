@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q2"
+  },
+  {
+    "choices": [
+      "presenting an argument to support a particular hypothesis",
+      "suggesting an answer to a theoretical question",
+      "questioning the assumptions of a research project",
+      "criticizing experimental results"
+    ]
+  },
+  {
+    "question": "The passage is primarily concerned with"
+  },
+  {
+    "text": "Recently some scientists have concluded that meteorites found on Earth and long believed to have a Martian origin might actually have been blasted free of Mars’s gravity by the impact on Mars of other meteorites. This conclusion has led to another question: whether meteorite impacts on Earth have similarly driven rocks from this planet to Mars.According to astronomer S. A. Phinney, kicking a rock hard enough to free it from Earth’s gravity would require a meteorite capable of making a crater more than 60 miles across. Moreover, even if Earth rocks were freed by meteorite impact, Mars’s orbit is much larger than Earth’s, so Phinney estimates that the probability of these rocks hitting Mars is about one-tenth as great as that of Mars’s rocks hitting Earth. To demonstrate this estimate, Phinney used a computer to calculate where 1,000 hypothetical particles would go if ejected from Earth in random directions. He found that 17 of the 1,000 particles would hit Mars."
+  }
+]

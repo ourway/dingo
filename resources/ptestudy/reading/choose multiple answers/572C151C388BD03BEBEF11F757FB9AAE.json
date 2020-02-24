@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q5"
+    ]
+  },
+  {
+    "choices": [
+      "Snow is formed from ice.",
+      "Falling snow melts because of warm air around it.",
+      "Subzero temperatures are required for snow to fall.",
+      "Sleet develops at less than two degrees centigrade.",
+      "Dry snow falls in colder temperatures than wet snow."
+    ]
+  },
+  {
+    "question": "Which of the following statements about snow match the information in the passage?"
+  },
+  {
+    "text": "Snow is formed when temperatures are low and there is moisture – in the form of tiny ice crystals – in the atmosphere. When these tiny ice crystals collide they stick together in clouds to become snowflakes. If enough ice crystals stick together, they’ll become heavy enough to fall to the ground.Precipitation falls as snow when the air temperature is below 2°C. It is a myth that it needs to be below zero to snow. In fact the heaviest snowfalls tend to occur when the air temperature is between zero and 2°C.The falling snow does begin to melt as soon as the temperature rises above freezing, but as the melting process begins, the air around the snowflake is cooled.If the temperature is warmer than 2°C then the snowflake will melt and fall as sleet rather than snow, and if it’s warmer still, it will be rain.The size and make-up of a snowflake depends on how many ice crystals group together, and this will be determined by air temperatures. Snowflakes that fall through dry, cool air will be small, powdery snowflakes that don’t stick together. This ‘dry’ snow is ideal for snow sports but is more likely to drift in windy weather.When the temperature is slightly warmer than OOC, the snowflakes will melt around the edges and stick together to become big, heavy flakes. This creates ‘wet’ snow, which sticks together easily and is good for making snowmen."
+  }
+]

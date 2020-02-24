@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q2"
+  },
+  {
+    "choices": [
+      "Area controllers",
+      "Tower controllers",
+      "En-route controllers",
+      "Both area and aerodrome controllers"
+    ]
+  },
+  {
+    "question": "Which type of air traffic controllers can actually see the planes in the airport?"
+  },
+  {
+    "text": "Air traffic controllers are well known for working in control towers at airports, but the majority actually work in area control centres. They are responsible for the en-route stage of the aircraft, using radar to track its exact position, keeping it safe in the airspace and providing the most efficient route."
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "pause": "40"
+  },
+  {
+    "text": "The grid-based infrastructure enables large-scale scientific applications to be run on distributed resources. However, in practice, grid resources are not very easy to use for the end-users who have to learn how to generate security credentials. There is an imminent need to provide transparent access to these resources so that the end-users are shielded from the complicated details."
+  },
+  {
+    "time": "40"
+  }
+]

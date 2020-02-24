@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "The credit rating agencies use legions of high trained analyst with access to top management",
+      "Their meticulous reports giving ratings for corporate bonds are designed to give an accurate picture of the bonds riskiness and ultimately the probability of default",
+      "Lately, the credit-rating agencies have struggled to keep up",
+      "It seems a bond rating tells you even less about the price that investors are willing to pay",
+      "In 1999 two-third of the debt rated triple B by standard and poor was priced within 20 basis points of the average bond with the same rating."
+    ]
+  },
+  {
+    "sources": [
+      "It seems a bond rating tells you even less about the price that investors are willing to pay",
+      "Lately, the credit-rating agencies have struggled to keep up",
+      "The credit rating agencies use legions of high trained analyst with access to top management",
+      "Their meticulous reports giving ratings for corporate bonds are designed to give an accurate picture of the bonds riskiness and ultimately the probability of default",
+      "In 1999 two-third of the debt rated triple B by standard and poor was priced within 20 basis points of the average bond with the same rating."
+    ]
+  }
+]

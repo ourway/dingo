@@ -1,0 +1,25 @@
+[
+  {
+    "correct_words": [
+      "grew",
+      "spent",
+      "stabilized",
+      "thinned"
+    ]
+  },
+  {
+    "text": "Sharks killed four people and injured 58 others around the world in 2006, a comparatively dull year for dangerous encounters between the two species. Shark bite numbers grew steadily over the last century as the human population increased and spentmore time at the seashore, but the numbers have stabilized over the past five years as overfishing has thinnedthe shark population near shore and swimmers have learned about the risks of wading in certain areas."
+  },
+  {
+    "words": [
+      "died",
+      "thinned",
+      "horrified",
+      "swam",
+      "grew",
+      "spent",
+      "learned",
+      "stabilized"
+    ]
+  }
+]

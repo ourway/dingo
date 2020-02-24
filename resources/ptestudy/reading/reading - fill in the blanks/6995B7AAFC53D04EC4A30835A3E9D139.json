@@ -1,0 +1,28 @@
+[
+  {
+    "correct_words": [
+      "closing",
+      "handful",
+      "irrelevant",
+      "accumulated"
+    ]
+  },
+  {
+    "text": "The  closing  decades of an artist’s life do not generally make the biographer’s heart beat faster, but Claude Monet is one of a  handful  of painters who bucks the pattern of an  irrelevant  old age. While it’s true that by the time he was 73 he had  accumulated  all the usual dragging baggage."
+  },
+  {
+    "words": [
+      "last",
+      "accumulated",
+      "closing",
+      "majority",
+      "minority",
+      "handful",
+      "seen",
+      "encouraging",
+      "packed",
+      "oddly",
+      "irrelevant"
+    ]
+  }
+]

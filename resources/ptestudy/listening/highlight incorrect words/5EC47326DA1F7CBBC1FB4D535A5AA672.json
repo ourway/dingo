@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw23.mp3"
+  },
+  {
+    "correct_words": [
+      "drinking",
+      "lectures",
+      "particular",
+      "reclined",
+      "everyone",
+      "involved",
+      "building"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "confessing",
+      "transitions",
+      "signature",
+      "unsupervised",
+      "lam",
+      "shop",
+      "imprinting"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

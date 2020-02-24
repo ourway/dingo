@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "Many people are living under the threat of flood.",
+      "There would be more people are living at risk once the sea level rises.",
+      "Scientists predict that every 0.5 cm sea level rises will lead*** lives at risk.",
+      "And every 1 cm level rises lead*** lives at risk."
+    ]
+  },
+  {
+    "sources": [
+      "Scientists predict that every 0.5 cm sea level rises will lead*** lives at risk.",
+      "Many people are living under the threat of flood.",
+      "And every 1 cm level rises lead*** lives at risk.",
+      "There would be more people are living at risk once the sea level rises."
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "answers": [
+      "q3",
+      "q4"
+    ]
+  },
+  {
+    "choices": [
+      "Farms using windmills to pump water",
+      "Research centers exploring the uses of wind",
+      "Types of power plant common in Denmark and California",
+      "Collections of wind turbines producing electric power"
+    ]
+  },
+  {
+    "question": "Based on the information in the paragraph, which of the following best explains the term wind farms?"
+  },
+  {
+    "text": "Since 1980, the use of wind to produce electricity has been growing rapidly. In 1994 there were nearly 20,000 wind turbines worldwide, most grouped in clusters called wind farms that collectively produced 3,000 megawatts of electricity. Most were in Denmark (which got 3 percent of its electricity from wind turbines) and California (where 17,000 machines produced 1 percent of the state’s electricity, enough to meet the residential needs of a city as large as San Francisco). In principle, all the power needs of the United States could be provided by exploiting the wind potential of just three states—North Dakota, South Dakota, and Texas."
+  }
+]

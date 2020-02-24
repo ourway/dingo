@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw250.mp3"
+  },
+  {
+    "correct_words": [
+      "scientists",
+      "technology",
+      "Scientists",
+      "nanowires",
+      "manganese",
+      "evaporates"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "biases",
+      "paleontology",
+      "hyperlinks",
+      "merchandize",
+      "yields",
+      "race"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

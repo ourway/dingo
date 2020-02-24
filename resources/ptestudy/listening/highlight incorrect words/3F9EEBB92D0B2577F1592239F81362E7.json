@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw240.mp3"
+  },
+  {
+    "correct_words": [
+      "Rayleigh",
+      "discovery",
+      "actually",
+      "whistles",
+      "vibrating",
+      "frequency",
+      "produces"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "loudhailer",
+      "inadvertently",
+      "avuncularly",
+      "centers",
+      "migrating",
+      "recently",
+      "whooshes"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "correct_words": [
+      "question",
+      "examples",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "What is music? In one sense, this is an easyquestion. Even the least musical among us can recognize pieces of music when we hear them and name a few canonicalexamples. We know there are different kinds of music and, even if ourknowledgeof music is restricted, we know which kinds we like and which kinds we do not."
+  },
+  {
+    "words": [
+      "examples",
+      "answer",
+      "exemplifies",
+      "knowledge",
+      "question",
+      "knowledgeable"
+    ]
+  }
+]

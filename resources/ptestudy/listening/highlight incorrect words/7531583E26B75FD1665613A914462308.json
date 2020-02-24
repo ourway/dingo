@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw300.mp3"
+  },
+  {
+    "correct_words": [
+      "mimicking",
+      "research",
+      "Researchers",
+      "producing",
+      "evaluate",
+      "preparing"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "segmenting",
+      "bestirred",
+      "cleavages",
+      "spooning",
+      "congregate",
+      "fishing"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

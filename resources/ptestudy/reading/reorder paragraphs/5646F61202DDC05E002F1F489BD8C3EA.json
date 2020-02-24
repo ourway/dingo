@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "In the lecture, you should be a good listener.",
+      "To be a good listener, you should take notes.",
+      "This make you memorize, for these you take note, and should construct sentences.",
+      "After that, this would help you in revising and exercising key words."
+    ]
+  },
+  {
+    "sources": [
+      "This make you memorize, for these you take note, and should construct sentences.",
+      "To be a good listener, you should take notes.",
+      "After that, this would help you in revising and exercising key words.",
+      "In the lecture, you should be a good listener."
+    ]
+  }
+]

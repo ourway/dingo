@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q2",
+      "q5"
+    ]
+  },
+  {
+    "choices": [
+      "Efficient use of steam may reduce the energy cost in some industrial processes.",
+      "The steam bubble with some nanoparticles in it would float to the surface with steam released.",
+      "When put into water, nanoparticles are highly active and hot enough to vaporize it.",
+      "Once the nanoparticles are used up, new ones should be put into the water again.",
+      "The word “aggregate” in paragraph one probably mean âentireâ."
+    ]
+  },
+  {
+    "question": "According to the passage, which of statements are correct?"
+  },
+  {
+    "text": "Today in mind-bendingly cool stuff that nanoparticles can do: A team of researchers at Rice University in Texas has demonstrated a mechanism by which they can create steam in just seconds by focusing sunlight on a mixture of water and nanoparticles. This is not just some artificial means of lowering boiling point either; this solar powered “boiler” can produce steam before the water even gets warm to the touch, without ever bringing the aggregate water to boil.Right now this research is very much still in the lab, and the researchers are not sure exactly how far they can push it. But it does not take much to imagine the possibilities for a steam generator that runs solely on water and sunlight.The technology works by mixing a small amount of either carbon or gold-coated silicon dioxide nanoparticles, each just one-tenth the diameter of a single human hair, with water in a glass vessel. Their small diameters – smaller than the wavelength of visible light – means that they can absorb most of a light wave’s energy rather than scattering it. So when sunlight is focused on the vessel with a lens, the particles quickly become quite hot – hot enough to vaporize the water directly surrounding it.This creates a bubble of steam that envelopes the nanoparticle, which is now insulated from the cooler liquid water by the steam, which allows it to grow hotter still, vaporizing more of the water immediately around it. At some point the nanoparticle and its steam envelope become large enough to grow buoyant, at which point the whole steam bubble – particle and all – floats to the surface. The steam is released into the air, the particle falls back into the cooler water and sinks back down until it begins to absorb sunlight and heat again, at which point the process starts all over."
+  }
+]

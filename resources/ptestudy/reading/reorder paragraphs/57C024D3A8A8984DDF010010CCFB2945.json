@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "An earthquake comes like a thief in the night, without warning.",
+      "It was necessary, therefore, to invent instruments that neither slumbered nor slept.",
+      "Some devices were quite simple.",
+      "One, for instance, consisted of rods of various lengths and thicknesses which would stand up on end like ninepins.",
+      "When a shock came it shook the rigid table upon which these stood."
+    ]
+  },
+  {
+    "sources": [
+      "Some devices were quite simple.",
+      "When a shock came it shook the rigid table upon which these stood.",
+      "It was necessary, therefore, to invent instruments that neither slumbered nor slept.",
+      "An earthquake comes like a thief in the night, without warning.",
+      "One, for instance, consisted of rods of various lengths and thicknesses which would stand up on end like ninepins."
+    ]
+  }
+]

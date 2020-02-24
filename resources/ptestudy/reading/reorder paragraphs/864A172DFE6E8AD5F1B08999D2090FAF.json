@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "One of the world’s tallest structures is the Burj Dubai.",
+      "Standing at 167 floors, the height of the building is widely estimated to be 707 metres.",
+      "Note the use of the qualifier “estimated”; the building’s exact height is a tightly guarded secret.",
+      "A hotel occupies the bottom 37 floors of the building.",
+      "Above that, on floors 45 through 108 are apartments and corporate offices."
+    ]
+  },
+  {
+    "sources": [
+      "Above that, on floors 45 through 108 are apartments and corporate offices.",
+      "Note the use of the qualifier “estimated”; the building’s exact height is a tightly guarded secret.",
+      "One of the world’s tallest structures is the Burj Dubai.",
+      "A hotel occupies the bottom 37 floors of the building.",
+      "Standing at 167 floors, the height of the building is widely estimated to be 707 metres."
+    ]
+  }
+]

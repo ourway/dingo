@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/021.mp3"
+  },
+  {
+    "correct_words": [
+      "issues",
+      "region",
+      "precipitation",
+      "millions",
+      "dynamic",
+      "variations",
+      "intensity"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "points",
+      "reason",
+      "population",
+      "billions",
+      "abnormal",
+      "deviations",
+      "sensitivity"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

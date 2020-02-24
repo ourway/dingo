@@ -1,0 +1,26 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q2",
+      "q4",
+      "q5"
+    ]
+  },
+  {
+    "choices": [
+      "Japan",
+      "Scotland",
+      "Spain",
+      "Samoa",
+      "South Africa",
+      "Germany"
+    ]
+  },
+  {
+    "question": "According to the text, which of the countries listed below drive on the left?"
+  },
+  {
+    "text": "Why do some countries drive on the left, while others – the majority- drive on the right? In fact, those that drive on the left make up about twenty-five per cent of the world’s countries and are, apart from the UK itself, mostly countries that were British colonies: India, South Africa, Singapore, Jamaica, and so on. Japan does too, although it wasn’t a colony, and as late as 2009, Samoa switched from driving on the right largely because they wanted to buy right-hand drive cars made in Japan and New Zealand.The Romans introduced the custom of keeping to the left, a habit that was reinforced in medieval times when riders throughout Europe passed oncoming strangers sword arm to sword arm – this idea is based on the fact that the majority of people are right-handed. An increase in horse traffic towards the end of the 18th century meant that the convention gained strength, but it was not put into law until 1835. Legend has it that Napoleon is responsible for making the European countries which he conqueredkeep to the right, for the simple reason either that he was left-handed himself, or that he wanted to be different from his enemy, England. This is most probably nonsense, but an Emperor’s whims can go a long way. So France, obviously, and Spain, the Netherlands and other countries Napoleon overran used this system, and over the years other countries adopted the practice to make crossing borders easier and safer. The latest European country to convert was Sweden, in 1967."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "The railway is a good invention, but there is only wood railway on the beginning.",
+      "The railway can save time and money.",
+      "Later on, someone invented a new wagon.",
+      "With the industrial development, steel railway was invented in the year***, which then replaced wood railway."
+    ]
+  },
+  {
+    "sources": [
+      "The railway is a good invention, but there is only wood railway on the beginning.",
+      "Later on, someone invented a new wagon.",
+      "With the industrial development, steel railway was invented in the year***, which then replaced wood railway.",
+      "The railway can save time and money."
+    ]
+  }
+]

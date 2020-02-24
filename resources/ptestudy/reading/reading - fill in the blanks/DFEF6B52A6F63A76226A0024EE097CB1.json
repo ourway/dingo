@@ -1,0 +1,28 @@
+[
+  {
+    "correct_words": [
+      "increased",
+      "improvements",
+      "decline",
+      "prices",
+      "greater"
+    ]
+  },
+  {
+    "text": "For two decades, leading up to the millennium, global demand for foodincreased  steadily, along with growth in the world’s population, record harvests,  improvements  in incomes, and the diversification of diets. As a result, food prices continued to  decline through 2000. But beginning in 2004,  prices  for most grains began to rise. Although there was an increase in production, the increase in demand was  greater ."
+  },
+  {
+    "words": [
+      "increased",
+      "prices",
+      "decreased",
+      "improvements",
+      "inflation",
+      "amount",
+      "fluctuate",
+      "larger",
+      "greater",
+      "decline"
+    ]
+  }
+]

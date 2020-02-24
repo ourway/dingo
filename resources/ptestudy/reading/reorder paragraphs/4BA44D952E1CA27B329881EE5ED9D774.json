@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "Each year, about 31,000 men and women in the U.S. are diagnosed with a cancer caused by an infection from the human papillomavirus, or HPV.",
+      "It’s the most common sexually transmitted virus and infection in the U.S.",
+      "In women, HPV infection can lead to cervical cancer, which leads to about 4,000 deaths per year.",
+      "While in men, it can cause penile cancer.",
+      "HPV also causes some cases of oral cancer, cancer of the anus and genital warts."
+    ]
+  },
+  {
+    "sources": [
+      "HPV also causes some cases of oral cancer, cancer of the anus and genital warts.",
+      "While in men, it can cause penile cancer.",
+      "It’s the most common sexually transmitted virus and infection in the U.S.",
+      "In women, HPV infection can lead to cervical cancer, which leads to about 4,000 deaths per year.",
+      "Each year, about 31,000 men and women in the U.S. are diagnosed with a cancer caused by an infection from the human papillomavirus, or HPV."
+    ]
+  }
+]

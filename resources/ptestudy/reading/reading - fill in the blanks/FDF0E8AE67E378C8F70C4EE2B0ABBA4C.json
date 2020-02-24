@@ -1,0 +1,22 @@
+[
+  {
+    "correct_words": [
+      "mistakenly",
+      "release",
+      "acts"
+    ]
+  },
+  {
+    "text": "Allergies are abnormal immune system reactions to things that are typically harmless to most people. When you’re allergic to something, your immune system mistakenly  believes that this substance is harmful to your body. Substances that cause allergic reactions such as certain foods, dust, plant pollen, or medicines are known as allergens. In an attempt to protect the body, the immune system produces the antibodies to that allergen. Those antibodies then cause certain cells in the body to  release chemicals into the bloodstream, one of which is histamine. The histamine then acts  on a person’s eyes, nose, throat, lungs, skin, or gastrointestinal tract and causes the symptoms of the allergic reaction. Future exposure to that same allergen will trigger this antibody response again. This means that every time you come into contact with that allergen, you’ll have an allergic reaction."
+  },
+  {
+    "words": [
+      "unfortunately",
+      "absorb",
+      "release",
+      "mistakenly",
+      "do",
+      "acts"
+    ]
+  }
+]

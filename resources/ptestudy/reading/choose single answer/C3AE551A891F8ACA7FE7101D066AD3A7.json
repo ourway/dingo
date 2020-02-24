@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "The ocean plays a vital role in life on earth.",
+      "The ocean is only a minor part of the life cycle on earth.",
+      "The ocean only influences the lives of people living near it.",
+      "The ocean plays no part in the earth’s climate."
+    ]
+  },
+  {
+    "question": "What point is the writer making in this paragraph?"
+  },
+  {
+    "text": "Just by looking at images of Earth from space, it’s clear that the ocean is a significant piece of the Earth’s story. In fact, the ocean represents over 70% of the Earth’s surface and contains 97% of all water on Earth. The ocean stores heat like a “fly wheel” for climate. Its huge capacity as a heat and water reservoir moderates the climate of Earth. Within this Earth system, both the physical and biological processes of the ocean play a key role in the water cycle, the carbon cycle, and climate variability. Even if you live nowhere near the ocean, you will still experience the ocean’s influence in our Earth system."
+  }
+]

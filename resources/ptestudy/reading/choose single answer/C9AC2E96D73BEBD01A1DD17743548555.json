@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "Art is a difficult and complex form to explain.",
+      "Wikipedia defines art under aesthetics, which is a branch of philosophy.",
+      "Music, literature, film and sculpture do not define art.",
+      "Art is directed in a way that it deliberately appeals to the emotions of people."
+    ]
+  },
+  {
+    "question": "What is the writer’s main point about Art?"
+  },
+  {
+    "text": "Many argue that art cannot be defined. We could go about this in several ways. Art is often considered as the process or product of deliberately arranging elements in a way that appeals to the senses or emotions. It encompasses a diverse range of human activities, creations and ways of expression, including music, literature, film, sculpture and paintings. The meaning of art is explored in a branch of philosophy known as aesthetics. At least, that is what Wikipedia claims."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "A team of scientists has discovered two Earth-like planets in the habitable orbit of Sun-like star.",
+      "Using observations gathered by NASA’s Kepler Mission, the team found five planets orbiting a Sun-like star called Kepler-62.",
+      "Four of these planets are so-called super-Earths, larger than our own planet, but smaller than even the smallest ice giant planet in our Solar System.",
+      "These new super-Earths have radii of 1.3, 1.4, 1.6, and 1.9 times that of Earth. In addition, one of the five was a roughly Mars-sized planet, half the size of Earth."
+    ]
+  },
+  {
+    "sources": [
+      "Using observations gathered by NASA’s Kepler Mission, the team found five planets orbiting a Sun-like star called Kepler-62.",
+      "A team of scientists has discovered two Earth-like planets in the habitable orbit of Sun-like star.",
+      "These new super-Earths have radii of 1.3, 1.4, 1.6, and 1.9 times that of Earth. In addition, one of the five was a roughly Mars-sized planet, half the size of Earth.",
+      "Four of these planets are so-called super-Earths, larger than our own planet, but smaller than even the smallest ice giant planet in our Solar System."
+    ]
+  }
+]

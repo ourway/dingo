@@ -1,0 +1,26 @@
+[
+  {
+    "correct_words": [
+      "drinking",
+      "filter",
+      "soil",
+      "pollution"
+    ]
+  },
+  {
+    "text": "Chemicals used to control weeds in crops such as corn and soybeans may sometimes run off farmland and enter surface water bodies such as lakes and streams. If a surface water body that is used as a drinkingwater supply receives excess amounts of these herbicides, then the municipal water treatment plant mustfilterthem out in order for the water to be safe to drink. This added filtration process can be expensive. Farmers can help control excess herbicides in runoff by choosing chemicals that bind withsoilmore readily, are less toxic, or degrade more quickly. Additionally, selecting the best tillage practice can help minimize herbicidepollution."
+  },
+  {
+    "words": [
+      "polluted",
+      "pollution",
+      "water",
+      "soil",
+      "bring",
+      "filtration",
+      "filter",
+      "consuming",
+      "drinking"
+    ]
+  }
+]

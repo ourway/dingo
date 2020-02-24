@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/01.mp3"
+  },
+  {
+    "correct_words": [
+      "stinging",
+      "ants",
+      "gauge",
+      "shipping",
+      "shores",
+      "climatically"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "stringer",
+      "fonts",
+      "nudge",
+      "slipping",
+      "shoes",
+      "academically"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "correct_words": [
+      "forbidden",
+      "massive",
+      "recall",
+      "shelves",
+      "steadfast"
+    ]
+  },
+  {
+    "text": "None of the books in my father’s dusty old bookcase wereforbidden. Yet while I was growing up, I never saw anyone take one down. Most were massive tomes-a comprehensive history of civilization, matching volumes of the great works of western literature, numerous others I can no longer  recall that seemed almost fused to  shelves that bowed slightly from decades of  steadfast  support."
+  },
+  {
+    "words": [
+      "huge",
+      "massive",
+      "forbidden",
+      "shelves",
+      "recall",
+      "forgiven",
+      "steadfast"
+    ]
+  }
+]

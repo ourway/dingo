@@ -1,0 +1,32 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/018.mp3"
+  },
+  {
+    "correct_words": [
+      "adverse",
+      "devastated",
+      "four",
+      "dioxide",
+      "decade",
+      "ozone",
+      "mortality",
+      "eradicate"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "reverse",
+      "destroyed",
+      "five",
+      "monoxide",
+      "years",
+      "fluorocarbons",
+      "morality",
+      "eliminate"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

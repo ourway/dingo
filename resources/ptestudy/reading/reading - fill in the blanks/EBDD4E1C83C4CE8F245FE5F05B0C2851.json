@@ -1,0 +1,23 @@
+[
+  {
+    "correct_words": [
+      "early",
+      "modern",
+      "by",
+      "flange"
+    ]
+  },
+  {
+    "text": "Roads of rails called Wagonways were being used in Germany as early  as 1550. These railed roads consisted of wooden rails over which horse-drawn wagons or carts moved with greater ease than over dirt roads. Wagonways were the beginnings of  modern railroads. by 1776, iron had replaced the wood in the rails and wheels on the carts. Wagonways evolved into Tramways and spread throughout Europe. Horses, however still provided all the pulling power. In 1789, Englishmen William Jessup designed the first wagons with flanged wheels. The flange was groove that allowed the wheels to better grip the rail, this was an important design that carried over to later locomotive."
+  },
+  {
+    "words": [
+      "modern",
+      "early",
+      "tertiary",
+      "by",
+      "flange",
+      "primitive"
+    ]
+  }
+]

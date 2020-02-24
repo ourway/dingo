@@ -1,0 +1,24 @@
+[
+  {
+    "correct_words": [
+      "hour",
+      "faster",
+      "know",
+      "damage"
+    ]
+  },
+  {
+    "text": "Wind is air moving around. Some winds can move as fast as a racing car, over 100 miles per hour . Winds can travel around the world. Wind can make you feel cold because you lose heat from your body  faster  when it is windy. Weather forecasters need to  know  the speed and direction of the wind_ The strength of wind is measured using the Beaufort scale from wind force when there is no wind, to wind force 12 which can  damage  houses and buildings and is called hurricane force."
+  },
+  {
+    "words": [
+      "second",
+      "think",
+      "slower",
+      "hour",
+      "faster",
+      "know",
+      "damage"
+    ]
+  }
+]

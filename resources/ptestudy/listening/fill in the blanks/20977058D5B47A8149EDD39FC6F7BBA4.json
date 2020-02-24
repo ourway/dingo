@@ -1,0 +1,17 @@
+[
+  {
+    "answers": [
+      "intensity",
+      "seeing",
+      "sequentially",
+      "translates",
+      "manipulate"
+    ]
+  },
+  {
+    "audio": "https://ptestudy.net/audio/lfib/apLfib78.mp3"
+  },
+  {
+    "text": "Many different types of bar code scanning machines exist, but they all work on the same fundamental principles. They all use the intensity of light reflected from a series of black and white stripes to tell a computer what code it is seeing White stripes reflect light very well, while black stripes reflect hardly any light at all. The bar code scanner shines light sequentially across a bar code, simultaneously detecting and recording the pattern of reflected and non-reflected light. The scanner then translates this pattern into an electrical signal that the computer can understand. All scanners must include computer software to interpret the bar code once it’s been entered. This simple principle has transformed the way we are able to manipulate data and the way in which many businesses handle recordkeeping."
+  }
+]

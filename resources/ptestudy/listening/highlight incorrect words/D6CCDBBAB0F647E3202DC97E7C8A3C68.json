@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw234.mp3"
+  },
+  {
+    "correct_words": [
+      "entertaining",
+      "mechanisms",
+      "accelerometers",
+      "gyroscope",
+      "smartphone",
+      "Williamses"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "irritating",
+      "visions",
+      "travelers",
+      "wrought",
+      "microphone",
+      "trinities"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

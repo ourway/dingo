@@ -1,0 +1,22 @@
+[
+  {
+    "correct_words": [
+      "define",
+      "call",
+      "comprehensive"
+    ]
+  },
+  {
+    "text": "Joseph Engelberger, a pioneer in industrial robotics, once remarked ?I can’t define a robot, but I know one when I see one?. If you consider all the different machines people callrobots, you can see that it’s nearly impossible to come up with a comprehensivedefinition."
+  },
+  {
+    "words": [
+      "define",
+      "refer",
+      "comprehensive",
+      "call",
+      "observe",
+      "analyse"
+    ]
+  }
+]

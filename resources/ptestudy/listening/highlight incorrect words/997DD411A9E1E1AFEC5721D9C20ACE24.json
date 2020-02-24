@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/44.mp3"
+  },
+  {
+    "correct_words": [
+      "principle",
+      "research",
+      "treatment",
+      "concentrated",
+      "two-thirds",
+      "nonexistent"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "transmissible",
+      "cab",
+      "teapot",
+      "tamest",
+      "hulls",
+      "delimit"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

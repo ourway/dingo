@@ -1,0 +1,20 @@
+[
+  {
+    "answers": "q5"
+  },
+  {
+    "choices": [
+      "approval",
+      "surprise",
+      "indifference",
+      "apprehension",
+      "skepticism"
+    ]
+  },
+  {
+    "question": "The author regards the idea that traditional quantum mechanics is incomplete with"
+  },
+  {
+    "text": "Quantum mechanics is a highly successful theory: it supplies methods for accurately calculating the results of diverse experiments, especially with minute particles. The predictions of quantum mechanics, however, give only the probability of an event, not a deterministic statement of whether or not the event will occur. Because of this probabilism, Einstein remained strongly dissatisfied with the theory throughout his life, though he did not maintain that quantum mechanics is wrong. Rather, he held that it is incomplete: in quantum mechanics the motion of a particle must be described in terms of probabilities, he argued, only because some parameters that determine the motion have not been specified. If these hypothetical “hidden parameters” were known, a fully deterministic trajectory could be defined. Significantly, this hidden-parameter quantum theory leads to experimental predictions different from those of traditional quantum mechanics. Einstein’s ideas have been tested by experiments performed since his death, and as most of these experiments support traditional quantum mechanics, Einstein’s approach is almost certainly erroneous."
+  }
+]

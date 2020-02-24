@@ -1,0 +1,18 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "It discusses an apparent inconsistency and suggests a reason for it.",
+      "It shows why a commonly held view is inaccurate.",
+      "It evaluates an explanation and finally accepts that explanation."
+    ]
+  },
+  {
+    "question": "Which of the following best describes the passage?"
+  },
+  {
+    "text": "The 1960’s witnessed two profound social movements: the civil rights movement and the movement protesting the war in Vietnam. Although they overlapped in time, they were largely distinct. For a brief moment in 1967, however, it appeared that the two movements might unite under the leadership of Martin Luther King, Jr.King’s role in the antiwar movement appears to require little explanation, since he was the foremost advocate of nonviolence of his time. But King’s stance on the Vietnam War cannot be explained in terms of pacifism alone. After all, he was something of a latecomer to the antiwar movement, even though by 1965 he was convinced that the role of the United States in the war was indefensible. Why then the two years that passed before he translated his private misgivings into public dissent? Perhaps he believed that he could not criticize American foreign policy without endangering the support for civil rights that he had won from the federal government."
+  }
+]

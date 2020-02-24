@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q2",
+      "q3"
+    ]
+  },
+  {
+    "choices": [
+      "Because ratings are reported as a percentage, each household is counted only as one person.",
+      "They are not always accurate when it comes to recording their viewing habits.",
+      "The indirect influence they exert on advertising costs may not be based on all relevant factors.",
+      "He completed his degree in 1910.",
+      "He achieved success rapidly."
+    ]
+  },
+  {
+    "question": "Which of the following does the passage indicate is true of the household members who report their viewing habits?"
+  },
+  {
+    "text": "Television programming is big business, with sales of interstitial advertising reaching billions of dollars annually. Advertising rates are determined by the viewership of the program in question, which has traditionally been determined by ACNielsen, part of the Nielsen company. Nielsen wields an immoderate amount of industry clout considering its questionable methods of statistics gathering.  The Nielsen Company relies on selected households to catalog their television watching habits in “diaries”. The ratings are then reported as a percentage that indicates the number of viewers watching a television program at a given time. The company has come under criticism for choosing residences that underreport daytime and late – night television viewing and for over representing minorities in sample populations. Critics also point to the nonviable practice of measuring how many individuals are waiting a given television set and of gauging how attentive the audience is to program or its advertising."
+  }
+]

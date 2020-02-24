@@ -1,0 +1,26 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q3",
+      "q4"
+    ]
+  },
+  {
+    "choices": [
+      "If the pH value is 7.4, then the patient can be diagnosed as acidosis.",
+      "Expect the conditions result from respiratory system malfunctions, all other situations can be grouped into metabolic acidosis or alkalosis.",
+      "In order to maintain normal pH rate, carbonic acid, lactic acid, phosphoric and sulphuric acids, and fatty acids should be excreted as quickly as possible from human body.",
+      "The higher level of carbon dioxide in the body fluids, the higher pH rate the human body would be.",
+      "If the level of carbon dioxide in the body fluids drops, respiratory alkalosis symptoms would be manifest.",
+      "Central nervous system would be affected most if acidosis or alkalosis happens.",
+      "Confusion is one of the manifestations if the pH of the blood falls below 7.35."
+    ]
+  },
+  {
+    "question": "Which of the following statements are incorrect, according to the paragraph?"
+  },
+  {
+    "text": "The normal pH value for the body fluids is between 7.35 and 7.45. When the pH value of body fluids is below 7.35, the condition is called acidosis, and when the pH is above 7.45, it is called alkalosis. Acidosis and alkalosis are categorized by the cause of the condition. Respiratory acidosis or respiratory alkalosis results from abnormalities of the respiratory system. Metabolic acidosis or metabolic alkalosis results from all causes other than abnormal respiratory functions.Metabolism produces acidic products that lower the pH of the body fluids. For example, carbon dioxide is a by-product of metabolism, and carbon dioxide combines with water to form carbonic acid. Also, lactic acid is a product of anaerobic metabolism, protein metabolism produces phosphoric and sulphuric acids, and lipid metabolism produces fatty acids. These acidic substances must continuously be eliminated from the body to maintain pH homeostasis. Rapid elimination of acidic products of metabolism results in alkalosis, and the failure to eliminate acidic products of metabolism results in acidosis.The rate at which carbon dioxide is eliminated from the body fluids through the lungs falls. This increases the concentration of carbon dioxide in the body fluids. As carbon dioxide levels increase, excess carbon dioxide reacts with water to form carbonic acid. The increase in carbonic acid concentration causes the pH of the body fluids to decrease. Respiratory alkalosis results from hyperventilation of the lungs. This increases the rate at which carbon dioxide is eliminated from the body fluids and results in a decrease in the concentration of carbon dioxide in the body fluids. If the pH of the body fluids increases above 7.45, symptoms of respiratory alkalosis become apparent.The major effect of acidosis is depression of the central nervous system. When the pH of the blood falls below 7.35, the central nervous system malfunctions, and the individual becomes disoriented and possibly comatose as the condition worsens. A major effect of alkalosis is hyper-excitability of the nervous system. Peripheral nerves are affected first, resulting in spontaneous nervous stimulation of muscles. Severe alkalosis can cause death as a result of tetany of the respiratory muscles."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "correct_words": [
+      "As a result",
+      "because",
+      "on the other hand",
+      "similarly"
+    ]
+  },
+  {
+    "text": "An eccentric mix of English, German and French has entered Japanese usage with grand abandon. A “kariya” woman is a career woman, and a “mansion” is an apartment. This increasing use of katakana, or unique Japanese versions of Western words, and the younger generation’s more casual use of the Japanese language have prompted Prime Minister Junichiro Koizumi to worry that these new words may not be understood by a wider audience. As a result , a government panel is proposing to publish a manual on how to speak proper Japanese. Foreign words became katakana Japanese because no existing Japanese words could quite capture a specific meaning or feeling. When the word “cool” traveled east, all of its English connotations did not make the journey. A kuru person in Japan is someone who is calm and never gets upset. on the other hand, someone who is kakkoii is hip, or in translation, “cool.”  similarly _, a hotto person is one who is easily excitable, perhaps passionate, but not necessarily a popular person or personality of the moment."
+  },
+  {
+    "words": [
+      "A result of",
+      "even",
+      "because",
+      "As a result",
+      "similarly",
+      "similar",
+      "on the other hand"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/sst/014.mp3"
+  },
+  {
+    "text": "In 1963, Allen Newell and Herbert A. Simon proposed that “symbol manipulation” was the essence of both human and machine intelligence. They wrote: A physical symbol system has the necessary and sufficient means of general intelligent action. This claim is very strong: it implies both that human thinking is a kind of symbol manipulation (because a symbol system is necessary for intelligence) and that machines can be intelligent (because a symbol system is sufficient for intelligence). Another version of this position was described by philosopher Hubert Dreyfus, who called it “the physiological assumption”: The mind can be viewed as a device operating on bits of information according to formal rules. A distinction is usually made between the kind of high level symbols that directly correspond with objects in the world, such as dog and tail and the more complex “symbols” that are present in a machine like a neural network. Early research into AI, called “good old fashioned artificial intelligence” by John Haugeland, focused on these kind of high level symbols."
+  }
+]

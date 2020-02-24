@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "Ask what system can be how?",
+      "Well, there is a direct answer to the question.",
+      "It is a system …. (Note that the pronoun refers to the first sentence of the system),",
+      "This enables … tools …. (This refers to the system and introduce tools)",
+      "These tools ……."
+    ]
+  },
+  {
+    "sources": [
+      "Well, there is a direct answer to the question.",
+      "Ask what system can be how?",
+      "This enables … tools …. (This refers to the system and introduce tools)",
+      "It is a system …. (Note that the pronoun refers to the first sentence of the system),",
+      "These tools ……."
+    ]
+  }
+]

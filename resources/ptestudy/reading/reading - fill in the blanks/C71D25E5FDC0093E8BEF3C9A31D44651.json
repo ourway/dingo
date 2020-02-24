@@ -1,0 +1,25 @@
+[
+  {
+    "correct_words": [
+      "prove",
+      "identify",
+      "reserve",
+      "samples"
+    ]
+  },
+  {
+    "text": "Fingerprints can prove that a suspect was actually at the scene of a crime. As long as a human entered a crime scene, there will be traces of DNA. DNA can help the police to  identify an individual to crack a case. An institute in London can helpreserve DNA and be used to match with the samples  taken from the crime scenes."
+  },
+  {
+    "words": [
+      "prove",
+      "retain",
+      "identify",
+      "evidence",
+      "determine",
+      "reserve",
+      "demonstrate",
+      "samples"
+    ]
+  }
+]

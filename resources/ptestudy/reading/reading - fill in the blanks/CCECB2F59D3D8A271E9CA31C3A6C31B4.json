@@ -1,0 +1,25 @@
+[
+  {
+    "correct_words": [
+      "tremendous",
+      "awed",
+      "species",
+      "value"
+    ]
+  },
+  {
+    "text": "Charles Darwin knew intuitively that tropical forests were places of  tremendous  intricacy and energy. He and his cohort of scientific naturalists were  awed  by the beauty of the Neotropics, where they collected tens of thousands of  species  new to science. But they couldn’t have guessed at the complete contents of the rain forest, and they had no idea of its  value  to humankind."
+  },
+  {
+    "words": [
+      "tremendous",
+      "awed",
+      "amazed",
+      "species",
+      "value",
+      "vast",
+      "types",
+      "magnitude"
+    ]
+  }
+]

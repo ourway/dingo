@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q4"
+  },
+  {
+    "choices": [
+      "reconcile two opposing theories",
+      "compare two different explanations for a phenomenon",
+      "describe experimental research that appears to support an unpopular theory",
+      "present evidence that may help to resolve an apparent contradiction"
+    ]
+  },
+  {
+    "question": "The primary purpose of the passage is to"
+  },
+  {
+    "text": "Although the hormone adrenaline is known to regulate memory storage, it does not pass from the blood into brain cells. We are faced with an apparent paradox: how can a hormone that does not act directly on the brain have such a large effect on brain function? Recently, we tested the possibility that one of the hormone’s actions outside the brain might be responsible. Since one consequence of adrenaline release in an animal is an increase in blood glucose levels, we examined the effects of glucose on memory in rats. We found that glucose injected immediately after training enhances memory tested the next day. Additional evidence was provided by negative findings: drugs called adrenergic antagonists, which block peripheral adrenaline receptors, disrupted adrenaline’s ability to regulate memory but did not affect memory enhancements produced by glucose that was not stimulated by adrenaline. These results are as they should be if adrenaline affects memory modulation by increasing blood glucose levels."
+  }
+]

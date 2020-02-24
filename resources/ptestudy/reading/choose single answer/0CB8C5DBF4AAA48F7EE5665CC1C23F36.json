@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q1"
+  },
+  {
+    "choices": [
+      "there are detailed skeletal similarities in the flippers of pinnipeds",
+      "sea lions, seals, and walruses are all pinnipeds",
+      "pinnipeds are descended from animals that once lived on land",
+      "animals without common ancestors sometimes evolve in similar ways"
+    ]
+  },
+  {
+    "question": "According to the passage, it has been recently discovered that"
+  },
+  {
+    "text": "Biologists have long maintained that two groups of pinnipeds, sea lions and walruses, are descended from a terrestrial bearlike animal, whereas the remaining group, seals, shares an ancestor with weasels. But the recent discovery of detailed similarities in the skeletal structure of the flippers in all three groups undermines the attempt to explain away superficial resemblance as due to convergent evolution—the independent development of similarities between unrelated groups in response to similar environmental pressures. Flippers may indeed be a necessary response to aquatic life; turtles, whales, and dugongs also have them. But the common detailed design found among the pinnipeds probably indicates a common ancestor. Moreover, walruses and seals drive themselves through the water with thrusts of their hind flippers, but sea lions use their front flippers. If anatomical similarity in the flippers resulted from similar environmental pressures, as posited by the convergent evolution theory, one would expect walruses and seals, but not seals and sea lions, to have similar flippers."
+  }
+]

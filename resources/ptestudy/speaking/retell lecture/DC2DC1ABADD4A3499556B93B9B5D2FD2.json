@@ -1,0 +1,8 @@
+[
+  {
+    "audio": null
+  },
+  {
+    "text": "I am a computer science and engineering professor here in Carnegie Mellon, and my research focuses on usable privacy. And so my friends like to give me examples of their frustrations with computing systems, especially frustrations related to usable privacy and security. Excuse me, so passwords are somethings that I hear a lot about. A lot of people are frustrated with passwords, and it’s bad enough when you have to have one really good password that you can remember, but nobody else is going to able to guess. But what do you do when you have accounts on a hundred different systems and you’re supposed to have a unique password for each of these systems? It’s tough. At Carnegie Mellon, they used to make it actually pretty easy for us to remember our passwords. The password requirement up through 2009 was just that you had to have a password with at least one character . Pretty easy. But then they changed things, and at the end of 2009, they announced that we were going to have a new policy, and this new policy required passwords that were at least eight characters long, with an uppercase letter, lowercase letter , a digit, a symbol, you couldn’t use the same character more than three times, and it wasn’t allowed to be in a dictionary."
+  }
+]

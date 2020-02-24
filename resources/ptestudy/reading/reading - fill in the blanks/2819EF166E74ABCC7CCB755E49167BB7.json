@@ -1,0 +1,26 @@
+[
+  {
+    "correct_words": [
+      "reflect",
+      "lead",
+      "industrial",
+      "represented"
+    ]
+  },
+  {
+    "text": "The Dow Jones Industrial Average (DJIA) reports the average stock price of 30 large, publicly traded US companies. It tends to reflectthe state of the stock market as a whole. Though its name wouldleadyou to believe the DJIA is made up of onlyindustrialcompanies, the DJIA, in fact, contains stocks across many “industries,” not all of which are industrial. The businesses representedinclude finance, food, technology, retail, heavy equipment, oil, chemical, pharmaceutical, consumer goods, and entertainment."
+  },
+  {
+    "words": [
+      "lead",
+      "deflect",
+      "represented",
+      "reflux",
+      "industrious",
+      "reflect",
+      "representing",
+      "lean",
+      "industrial"
+    ]
+  }
+]

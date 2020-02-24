@@ -1,0 +1,26 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/013.mp3"
+  },
+  {
+    "correct_words": [
+      "surreal",
+      "bureaucracy",
+      "condition",
+      "capture",
+      "Vietnam"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "succinct",
+      "administration",
+      "situation",
+      "reflect",
+      "New York"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

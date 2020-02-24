@@ -1,0 +1,28 @@
+[
+  {
+    "correct_words": [
+      "differs",
+      "an overview",
+      "establish",
+      "challenged",
+      "prominent"
+    ]
+  },
+  {
+    "text": "The presentation will cover copyright’s position as one of the intellectual property rights and how it  differs  from other intellectual property rights. It will give  an overview  of what copyright protects as well as what may be done with copyright protected works without permission under permitted acts (sometimes or so-called exceptions). It is by manipulating the restricted acts through licensing arrangements that rights owners  establish  and exploit commercial markets. In contrast to commercial markets, the growth of open source and open content licensing models has  challenged  established business models. The presentation gives a brief commentary on two of the more  prominent  open licensing frameworks: the GNU Creative Commons licenses."
+  },
+  {
+    "words": [
+      "differs",
+      "an overview",
+      "is different",
+      "establish",
+      "challenged",
+      "prominent",
+      "a review",
+      "create",
+      "developed",
+      "successful"
+    ]
+  }
+]

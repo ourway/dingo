@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw242.mp3"
+  },
+  {
+    "correct_words": [
+      "Seinfeld",
+      "Scientists",
+      "responsible",
+      "colleagues",
+      "harvested",
+      "suspects"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "copyrighted",
+      "impolitenesses",
+      "mackerel",
+      "tamales",
+      "psychologist",
+      "tends"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

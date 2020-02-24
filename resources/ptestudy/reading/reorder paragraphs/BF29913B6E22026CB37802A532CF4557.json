@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "Between the ocean and the mountain, there’s the unfinished highway.",
+      "It is an odd-looking landmark in a beautiful city: sections of elevated road left suspended in mid-air when construction stopped in the 1970s.",
+      "Four decades later, the hulking slabs of concrete still end in precipitous drops.",
+      "A glossy brochure of Cape Town film locations proclaims the cut-off highway “truly special”, with “great city views”.",
+      "It makes an edgy backdrop for TV commercials and fashion shoots, and looms over an episode of the science-fiction series “Black Mirror”."
+    ]
+  },
+  {
+    "sources": [
+      "Four decades later, the hulking slabs of concrete still end in precipitous drops.",
+      "It makes an edgy backdrop for TV commercials and fashion shoots, and looms over an episode of the science-fiction series “Black Mirror”.",
+      "Between the ocean and the mountain, there’s the unfinished highway.",
+      "A glossy brochure of Cape Town film locations proclaims the cut-off highway “truly special”, with “great city views”.",
+      "It is an odd-looking landmark in a beautiful city: sections of elevated road left suspended in mid-air when construction stopped in the 1970s."
+    ]
+  }
+]

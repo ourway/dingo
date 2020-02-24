@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "Heart attack is the caused by the sudden blockage of a coronary artery by a blood clot.",
+      "When the clot is formed, it will stay in the blood vessels.",
+      "The clot in blood vessels will block blood flow.",
+      "Without the normal blood flow, it will cause muscle contraction."
+    ]
+  },
+  {
+    "sources": [
+      "The clot in blood vessels will block blood flow.",
+      "Heart attack is the caused by the sudden blockage of a coronary artery by a blood clot.",
+      "Without the normal blood flow, it will cause muscle contraction.",
+      "When the clot is formed, it will stay in the blood vessels."
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw320.mp3"
+  },
+  {
+    "correct_words": [
+      "disposal",
+      "industrial",
+      "health",
+      "efficient",
+      "sort",
+      "ploughed"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "dispersal",
+      "industrious",
+      "wealth",
+      "effective",
+      "set",
+      "put"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

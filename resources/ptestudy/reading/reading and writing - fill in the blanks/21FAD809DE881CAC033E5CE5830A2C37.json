@@ -1,0 +1,48 @@
+[
+  {
+    "answers": [
+      "income",
+      "average",
+      "distributed",
+      "example",
+      "incidence"
+    ]
+  },
+  {
+    "selections": [
+      [
+        "income",
+        "outcome",
+        "incoming",
+        "out coming"
+      ],
+      [
+        "maximum",
+        "average",
+        "minimum",
+        "leverage"
+      ],
+      [
+        "disturbed",
+        "disturbing",
+        "distributing",
+        "distributed"
+      ],
+      [
+        "example",
+        "examples",
+        "exemplify",
+        "exampling"
+      ],
+      [
+        "incident",
+        "accident",
+        "incidence",
+        "coincidence"
+      ]
+    ]
+  },
+  {
+    "text": "To understand how many inhabitants of a country are poor, it is not enough to know a country’s per capita incomeoutcomeincomingout comingincome. The number of poor people in a country and themaximumaverageminimumleverageaveragequality of life depend on how equally or unequally income is disturbeddisturbingdistributingdistributeddistributedacross the population. In Brazil and Hungary, forexampleexamplesexemplifyexamplingexampleper capita income levels are quite comparable, but theincidentaccidentincidencecoincidenceincidenceof poverty in Brazil is much higher."
+  }
+]

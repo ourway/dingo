@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw146.mp3"
+  },
+  {
+    "correct_words": [
+      "Seinfeld",
+      "somebody",
+      "Consumer",
+      "participants",
+      "possession",
+      "purchasers",
+      "implicit"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "trisect",
+      "coppery",
+      "puma",
+      "reciprocals",
+      "superstition",
+      "calendars",
+      "wettest"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

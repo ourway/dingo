@@ -1,0 +1,24 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw1.mp3"
+  },
+  {
+    "correct_words": [
+      "inertial",
+      "ellipse",
+      "focal",
+      "axis"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "initial",
+      "eclipse",
+      "vocal",
+      "access"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "answers": [
+      "q2",
+      "q4"
+    ]
+  },
+  {
+    "choices": [
+      "X-ray crystallization causes a reduction in the interatomic distances of wavelengths.",
+      "X-rays are scattered according to the atomic structure of the crystal lattice.",
+      "The analysis of chemical compounds was only passible after the development of computer technology.",
+      "The process can be used to determine the chemical structure of biological compounds.",
+      "X-rays will not defract in crystalline substances."
+    ]
+  },
+  {
+    "question": "Which of the fallowing factors are consistent with the theory of X-ray crystallography?"
+  },
+  {
+    "text": "X-ray crystallography is the study of crystal structures through X-ray diffraction techniques. When an X-ray beam bombards a crystalline lattice in a given orientation, the beam is scattered in a definite manner characterized by the atomic structure of the lattice. This phenomenon, known as X-ray diffraction, occurs when the wavelength of X-rays and the interatomic distances in the lattice have the same order of magnitude. In 1912, the German scientist Max van Laue predicted that crystals exhibit diffraction qualities. Concurrently, W. Friedrich and P. Knipping created the first photographic diffraction patterns. A year later, Lawrence Bragg successfully analyzed the crystalline structures of potassium chloride and sodium chloride using X-ray crystallography, and developed a rudimentary treatment for X-ray/crystal interaction (Bragg’s Law). Bragg’s research provided a method to determine a number of simple crystal structures for the next 50 years. In the 1960s, the capabilities of X-ray crystallography were greatly improved by the incorporation of computer technology. Modern X-ray crystallography provides the mast powerful and accurate method far determining single-crystal structures. Structures containing 100-200 atoms now can be analyzed an the order of 1-2 days, whereas before the 1960s a 20-atom structure required 1-2 years far analysis. Through X-ray crystallography the chemical structure of thousands of organic, inorganic, organometallic, and biological compounds are determined every year."
+  }
+]

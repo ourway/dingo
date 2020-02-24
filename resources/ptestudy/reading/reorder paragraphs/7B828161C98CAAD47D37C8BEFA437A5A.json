@@ -1,0 +1,18 @@
+[
+  {
+    "correct_order": [
+      "What is a festival,",
+      "and then how this festival,",
+      "and then there are games,",
+      "Finally how will the award be given"
+    ]
+  },
+  {
+    "sources": [
+      "and then there are games,",
+      "and then how this festival,",
+      "What is a festival,",
+      "Finally how will the award be given"
+    ]
+  }
+]

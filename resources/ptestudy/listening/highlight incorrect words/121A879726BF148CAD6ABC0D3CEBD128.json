@@ -1,0 +1,28 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw322.mp3"
+  },
+  {
+    "correct_words": [
+      "traditions",
+      "aspect",
+      "Southwest",
+      "ceremonies",
+      "poetry",
+      "sought"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "conventions",
+      "respect",
+      "Northeast",
+      "celebrations",
+      "porttery",
+      "searched"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

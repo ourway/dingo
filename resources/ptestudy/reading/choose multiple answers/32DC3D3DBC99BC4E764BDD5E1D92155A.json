@@ -1,0 +1,21 @@
+[
+  {
+    "answers": [
+      "q1",
+      "q2"
+    ]
+  },
+  {
+    "choices": [
+      "Whether conditions on Mars are conducive to human habitation is not the only issue that limits realistic consideration of terraforming.",
+      "If we terraform Mars, it will be important to think about the long-term effects of changing a planet’s climate.",
+      "It is highly likely, according to recent data, that there is, or was at one time, life on Mars."
+    ]
+  },
+  {
+    "question": "It can be inferred from the passage that the author would be most likely to agree with which of the following statements?"
+  },
+  {
+    "text": "The controversial concept of terraforming, or changing a planet’s atmosphere to make it more habitable for humans, is still no more than a theoretical debate. However, the most recent data from two American Mars Rovers suggest that the terraforming of Mars may be more feasible than previously thought. The rovers found evidence of stratification patterns and cross bedding in rock on the edges of craters, as well as chlorine and bromine, suggestive of a large body of salt water. If mars once held water, it is possible that its atmosphere was at one time somewhat similar to Earth’s. Even if this theory were true, however, scientists would have to prevent a recurrence of the desiccation of the Martian atmosphere once it is made habitable, as well as endeavor to preserve any extant life. Of course, until a reliable method of transporting humans to Mars is developed, any possibility of terraforming is mere conjecture."
+  }
+]

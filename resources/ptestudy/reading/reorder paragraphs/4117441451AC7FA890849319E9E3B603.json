@@ -1,0 +1,20 @@
+[
+  {
+    "correct_order": [
+      "I lived in Master Hugh’s family for seven years.",
+      "During this time, I succeeded in learning to read and write.",
+      "In accomplishing this, I was compelled to resort to various stratagems.",
+      "I had no regular teacher.",
+      "Mrs. Hugh, who had kindly consented to instruct me, had, in compliance with the advice and direction of her husband, not only ceased to instruct, but had set her face against my being instructed by anyone else."
+    ]
+  },
+  {
+    "sources": [
+      "During this time, I succeeded in learning to read and write.",
+      "In accomplishing this, I was compelled to resort to various stratagems.",
+      "Mrs. Hugh, who had kindly consented to instruct me, had, in compliance with the advice and direction of her husband, not only ceased to instruct, but had set her face against my being instructed by anyone else.",
+      "I lived in Master Hugh’s family for seven years.",
+      "I had no regular teacher."
+    ]
+  }
+]

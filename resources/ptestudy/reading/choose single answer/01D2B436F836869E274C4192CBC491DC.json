@@ -1,0 +1,19 @@
+[
+  {
+    "answers": "q3"
+  },
+  {
+    "choices": [
+      "Short-term memory has a limited capacity while the capacity of long-term memory is quite huge",
+      "Short-term memory allows recall for a limited period; however, sometimes long-term memory can store information for the whole life",
+      "Short-term memory encrypt information by meaning, but long-term memory store information in an auditory way.",
+      "Short-term memory is rely mainly on dorsolateral prefrontal cortex while long-term memory usually use the whole brain"
+    ]
+  },
+  {
+    "question": "What are not the differences between short-term and long-term memory?"
+  },
+  {
+    "text": "The storage in short-term memory generally has a strictly limited capacity and duration, which means that information is not retained indefinitely. By contrast, long-term memory can store much larger quantities of information for potentially unlimited duration (sometimes a whole life span). Its capacity is immeasurable. For example, given a random seven-digit number we may remember it for only a few seconds before forgetting, suggesting it was stored in our short-term memory. On the other hand, we can remember telephone numbers for many years through repetition; this information is said to be stored in long-term memory."
+  }
+]

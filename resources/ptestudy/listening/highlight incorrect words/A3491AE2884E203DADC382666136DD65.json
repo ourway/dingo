@@ -1,0 +1,30 @@
+[
+  {
+    "audio": "https://ptestudy.net/audio/hiw/aphiw112.mp3"
+  },
+  {
+    "correct_words": [
+      "familiar",
+      "unfamiliar",
+      "managing",
+      "elephant",
+      "friendly",
+      "December",
+      "Especially"
+    ]
+  },
+  {
+    "incorrect_words": [
+      "limber",
+      "trimmer",
+      "upsurging",
+      "pickpocket",
+      "frizzy",
+      "flotilla",
+      "emissary"
+    ]
+  },
+  {
+    "text": ""
+  }
+]

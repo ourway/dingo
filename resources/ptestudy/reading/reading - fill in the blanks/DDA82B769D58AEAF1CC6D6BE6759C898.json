@@ -1,0 +1,23 @@
+[
+  {
+    "correct_words": [
+      "regulated",
+      "employ",
+      "presentation"
+    ]
+  },
+  {
+    "text": "To be called a “haute couture” house, a business must belong to the Syndical Chamber of Haute Couture in Paris, which is regulatedby the French Department of Industry. Members mustemploy15 or more people and present their collections twice a year. Eachpresentationmust include at least 35 separate outfits for day and evening wear."
+  },
+  {
+    "words": [
+      "presentation",
+      "unregulated",
+      "develop",
+      "employ",
+      "regulated",
+      "rendered",
+      "presenting"
+    ]
+  }
+]

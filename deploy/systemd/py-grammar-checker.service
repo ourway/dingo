@@ -1,0 +1,14 @@
+[Unit]
+Description=English Learning - Py Grammar Checker
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=farsheed
+WorkingDirectory=/home/farsheed/projects/english-learning-platform/src/micro-services/py-grammar-checker
+ExecStart=/usr/bin/env bash /home/farsheed/projects/english-learning-platform/src/micro-services/py-grammar-checker/run.sh
+
+[Install]
+WantedBy=multi-user.target

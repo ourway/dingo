@@ -1,0 +1,14 @@
+---
+- name: Install nginx
+  vars:
+      copyright: Farsheed Ashouri
+      services:
+          - tor
+          - postgresql
+
+  hosts: local
+  become: false
+  tasks:
+      - name: start services
+        service: name="{{item}}" state=started
+        with_items: "{{services}}"
